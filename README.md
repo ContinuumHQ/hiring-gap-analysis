@@ -70,6 +70,10 @@ hiring-gap-analysis/
 
 ---
 
+## ## Status
+
+EU Average is included in the raw data but currently excluded from plots due to scale distortion. Planned: EU Average as reference line in all country comparison charts.
+
 ## Countries analyzed
 
 Germany (DE), Netherlands (NL), Ireland (IE), Estonia (EE),
