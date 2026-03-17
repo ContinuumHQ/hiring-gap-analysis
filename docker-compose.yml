@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  hiring-gap-analysis:
+    build: .
+    container_name: hiring-gap-analysis
+    volumes:
+      - ./data:/app/data
+      - ./docs:/app/docs
+    command: ["python", "main.py"]

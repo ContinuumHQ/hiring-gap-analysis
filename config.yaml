@@ -1,0 +1,54 @@
+# hiring-gap-analysis - Configuration
+# API endpoints and parameters for data ingestion
+
+bundesagentur:
+  base_url: "https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs"
+  occupation_codes:
+    - "43444"   # Softwareentwicklung
+    - "43414"   # IT-Systemadministration
+    - "43434"   # Datenbankentwicklung / Data Engineering
+    - "43424"   # IT-Beratung
+    - "43494"   # Sonstige IT-Berufe
+  regions:
+    - "Bayern"
+    - "Berlin"
+    - "Hamburg"
+    - "Nordrhein-Westfalen"
+    - "Baden-Wuerttemberg"
+  max_results_per_query: 100
+  request_timeout_seconds: 10
+  retry_attempts: 3
+  retry_delay_seconds: 2
+
+eurostat:
+  base_url: "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data"
+  datasets:
+    isoc_sks_itsps: "isoc_sks_itsps"
+    htec_emp_nat2: "htec_emp_nat2"
+    jvs_q_nace2: "jvs_q_nace2"
+  countries:
+    - "DE"
+    - "NL"
+    - "IE"
+    - "EE"
+    - "PL"
+    - "NO"
+    - "PT"
+    - "EU27_2020"
+  request_timeout_seconds: 15
+  retry_attempts: 3
+  retry_delay_seconds: 3
+
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  models_dir: "data/models"
+
+output:
+  plots_dir: "docs/plots"
+  reports_dir: "docs/reports"
+
+model:
+  forecast_years: 5
+  test_size: 0.2
+  random_seed: 42

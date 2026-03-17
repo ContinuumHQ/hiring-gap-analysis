@@ -1,0 +1,1111 @@
+2026-03-16 17:51:40,830 [INFO] __main__ - ============================================================
+2026-03-16 17:51:40,830 [INFO] __main__ -   Step 1/4 - Data Ingestion
+2026-03-16 17:51:40,830 [INFO] __main__ - ============================================================
+2026-03-16 17:51:41,201 [INFO] ingestion.bundesagentur - Starting full fetch: 5 codes x 5 regions = 25 requests
+2026-03-16 17:51:41,201 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Bayern
+2026-03-16 17:51:42,015 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057696)
+2026-03-16 17:51:42,518 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Berlin
+2026-03-16 17:51:43,369 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057696)
+2026-03-16 17:51:43,872 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Hamburg
+2026-03-16 17:51:44,786 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057696)
+2026-03-16 17:51:45,289 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Nordrhein-Westfalen
+2026-03-16 17:51:46,187 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057696)
+2026-03-16 17:51:46,690 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Baden-Wuerttemberg
+2026-03-16 17:51:47,471 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057694)
+2026-03-16 17:51:47,974 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Bayern
+2026-03-16 17:51:48,874 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057696)
+2026-03-16 17:51:49,376 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Berlin
+2026-03-16 17:51:50,206 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057696)
+2026-03-16 17:51:50,709 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Hamburg
+2026-03-16 17:51:51,536 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057696)
+2026-03-16 17:51:52,039 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Nordrhein-Westfalen
+2026-03-16 17:51:52,870 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057696)
+2026-03-16 17:51:53,374 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Baden-Wuerttemberg
+2026-03-16 17:51:54,205 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057696)
+2026-03-16 17:51:54,708 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Bayern
+2026-03-16 17:51:55,589 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057694)
+2026-03-16 17:51:56,093 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Berlin
+2026-03-16 17:51:56,957 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057696)
+2026-03-16 17:51:57,460 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Hamburg
+2026-03-16 17:51:58,258 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057696)
+2026-03-16 17:51:58,760 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Nordrhein-Westfalen
+2026-03-16 17:51:59,587 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057694)
+2026-03-16 17:52:00,090 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Baden-Wuerttemberg
+2026-03-16 17:52:00,940 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057696)
+2026-03-16 17:52:01,443 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Bayern
+2026-03-16 17:52:02,260 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057694)
+2026-03-16 17:52:02,762 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Berlin
+2026-03-16 17:52:03,645 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057696)
+2026-03-16 17:52:04,148 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Hamburg
+2026-03-16 17:52:04,973 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057694)
+2026-03-16 17:52:05,477 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Nordrhein-Westfalen
+2026-03-16 17:52:06,354 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057696)
+2026-03-16 17:52:06,858 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Baden-Wuerttemberg
+2026-03-16 17:52:07,698 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057696)
+2026-03-16 17:52:08,201 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Bayern
+2026-03-16 17:52:09,095 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057696)
+2026-03-16 17:52:09,598 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Berlin
+2026-03-16 17:52:10,450 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057696)
+2026-03-16 17:52:10,954 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Hamburg
+2026-03-16 17:52:11,753 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057694)
+2026-03-16 17:52:12,255 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Nordrhein-Westfalen
+2026-03-16 17:52:13,119 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057696)
+2026-03-16 17:52:13,622 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Baden-Wuerttemberg
+2026-03-16 17:52:14,597 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057694)
+2026-03-16 17:52:15,101 [INFO] ingestion.bundesagentur - Fetch complete: 25/25 successful
+2026-03-16 17:52:15,101 [INFO] __main__ - Bundesagentur: 25/25 requests successful
+2026-03-16 17:52:15,101 [INFO] ingestion.eurostat - Fetching Eurostat dataset: isoc_sks_itsps
+2026-03-16 17:52:16,116 [INFO] ingestion.eurostat -   -> 161 rows fetched for 8 countries
+2026-03-16 17:52:17,117 [INFO] ingestion.eurostat - Fetching Eurostat dataset: htec_emp_nat2
+2026-03-16 17:52:18,716 [INFO] ingestion.eurostat -   -> 136 rows fetched for 8 countries
+2026-03-16 17:52:19,717 [INFO] ingestion.eurostat - Fetching Eurostat dataset: jvs_q_nace2
+2026-03-16 17:52:22,924 [ERROR] ingestion.eurostat -   -> Parse failed: Failed to parse dataset jvs_q_nace2: invalid literal for int() with base 10: '2001-Q1'
+2026-03-16 17:52:23,936 [INFO] ingestion.eurostat - Eurostat fetch complete: 2/3 successful
+2026-03-16 17:52:23,937 [INFO] __main__ - Eurostat: 2/3 datasets successful
+2026-03-16 17:52:23,937 [INFO] __main__ - ============================================================
+2026-03-16 17:52:23,937 [INFO] __main__ -   Step 2/4 - Cleaning & Feature Engineering
+2026-03-16 17:52:23,937 [INFO] __main__ - ============================================================
+2026-03-16 17:52:23,963 [INFO] pipeline.cleaner - Bundesagentur cleaned: 1 jobs -> data/processed/bundesagentur_clean.csv
+2026-03-16 17:52:23,967 [INFO] pipeline.cleaner - Eurostat isoc_sks_itsps cleaned: 161 rows -> data/processed/eurostat_isoc_sks_itsps_clean.csv
+2026-03-16 17:52:23,982 [INFO] pipeline.cleaner - Eurostat htec_emp_nat2 cleaned: 136 rows -> data/processed/eurostat_htec_emp_nat2_clean.csv
+2026-03-16 17:52:24,058 [WARNING] pipeline.cleaner - Parse error for jvs_q_nace2: invalid literal for int() with base 10: '2001-Q1'
+2026-03-16 17:52:24,073 [INFO] pipeline.features - Job features built: 1 rows -> data/processed/job_features.csv
+2026-03-16 17:52:24,082 [INFO] pipeline.features - Country comparison built: 8 countries -> data/processed/country_comparison.csv
+2026-03-16 17:52:24,087 [INFO] pipeline.features - Time series built: 297 rows -> data/processed/timeseries.csv
+2026-03-16 17:52:24,087 [INFO] __main__ - ============================================================
+2026-03-16 17:52:24,087 [INFO] __main__ -   Step 3/4 - Forecasting
+2026-03-16 17:52:24,087 [INFO] __main__ - ============================================================
+2026-03-16 17:52:24,869 [INFO] model.forecaster - Forecast DE/htec_emp_nat2: R2=-3.655 MAE=1475.4 forecast_end=2029
+2026-03-16 17:52:24,874 [INFO] model.forecaster - Forecast DE/isoc_sks_itsps: R2=-4.384 MAE=190.0 forecast_end=2029
+2026-03-16 17:52:24,878 [INFO] model.forecaster - Forecast EE/htec_emp_nat2: R2=-0.171 MAE=19.3 forecast_end=2029
+2026-03-16 17:52:24,882 [INFO] model.forecaster - Forecast EE/isoc_sks_itsps: R2=-4.135 MAE=4.4 forecast_end=2029
+2026-03-16 17:52:24,886 [INFO] model.forecaster - Forecast EU27_2020/htec_emp_nat2: R2=-5.285 MAE=8487.6 forecast_end=2029
+2026-03-16 17:52:24,890 [INFO] model.forecaster - Forecast EU27_2020/isoc_sks_itsps: R2=-0.111 MAE=497.3 forecast_end=2029
+2026-03-16 17:52:24,894 [INFO] model.forecaster - Forecast IE/htec_emp_nat2: R2=-0.453 MAE=133.9 forecast_end=2029
+2026-03-16 17:52:24,900 [INFO] model.forecaster - Forecast IE/isoc_sks_itsps: R2=-2.729 MAE=18.3 forecast_end=2029
+2026-03-16 17:52:24,904 [INFO] model.forecaster - Forecast NL/htec_emp_nat2: R2=0.739 MAE=75.8 forecast_end=2029
+2026-03-16 17:52:24,908 [INFO] model.forecaster - Forecast NL/isoc_sks_itsps: R2=-0.151 MAE=42.3 forecast_end=2029
+2026-03-16 17:52:24,912 [INFO] model.forecaster - Forecast NO/htec_emp_nat2: R2=-4.006 MAE=96.3 forecast_end=2029
+2026-03-16 17:52:24,917 [INFO] model.forecaster - Forecast NO/isoc_sks_itsps: R2=-7.494 MAE=8.7 forecast_end=2029
+2026-03-16 17:52:24,921 [INFO] model.forecaster - Forecast PL/htec_emp_nat2: R2=-324.121 MAE=797.5 forecast_end=2029
+2026-03-16 17:52:24,925 [INFO] model.forecaster - Forecast PL/isoc_sks_itsps: R2=-2.507 MAE=87.8 forecast_end=2029
+2026-03-16 17:52:24,942 [INFO] model.forecaster - Forecast PT/htec_emp_nat2: R2=-17.556 MAE=512.3 forecast_end=2029
+2026-03-16 17:52:24,947 [INFO] model.forecaster - Forecast PT/isoc_sks_itsps: R2=-0.031 MAE=16.5 forecast_end=2029
+2026-03-16 17:52:24,951 [INFO] model.forecaster - All forecasts saved: data/models/forecasts.csv
+2026-03-16 17:52:24,952 [INFO] model.forecaster - Model metrics saved: data/models/model_metrics.csv
+2026-03-16 17:52:24,952 [INFO] model.forecaster - Forecasting complete: 16/16 successful
+2026-03-16 17:52:24,952 [INFO] __main__ - Forecasts: 16/16 successful
+2026-03-16 17:52:24,955 [INFO] __main__ - ============================================================
+2026-03-16 17:52:24,955 [INFO] __main__ -   Step 4/4 - Dashboard & Report
+2026-03-16 17:52:24,955 [INFO] __main__ - ============================================================
+2026-03-16 17:52:25,634 [INFO] dashboard.visualizer - Plot saved: docs/plots/01_job_distribution.png
+2026-03-16 17:52:25,883 [INFO] dashboard.visualizer - Plot saved: docs/plots/02_country_comparison.png
+2026-03-16 17:52:26,163 [INFO] dashboard.visualizer - Plot saved: docs/plots/03_timeseries.png
+2026-03-16 17:52:26,464 [INFO] dashboard.visualizer - Plot saved: docs/plots/04_forecast.png
+2026-03-16 17:52:26,465 [INFO] dashboard.visualizer - 4 plots generated
+2026-03-16 17:52:26,465 [INFO] __main__ - 4 plots generated
+2026-03-16 17:52:26,475 [INFO] dashboard.report - HTML report saved: docs/reports/report_20260316_175226.html
+2026-03-16 17:52:26,475 [INFO] __main__ - Report: docs/reports/report_20260316_175226.html
+2026-03-16 17:52:26,475 [INFO] __main__ - ============================================================
+2026-03-16 17:52:26,475 [INFO] __main__ -   Pipeline complete
+2026-03-16 17:52:26,475 [INFO] __main__ - ============================================================
+2026-03-16 17:52:26,475 [INFO] __main__ - Plots   : docs/plots
+2026-03-16 17:52:26,475 [INFO] __main__ - Reports : docs/reports
+2026-03-16 17:52:26,475 [INFO] __main__ - Log     : pipeline.log
+2026-03-16 18:01:28,163 [INFO] __main__ - ============================================================
+2026-03-16 18:01:28,163 [INFO] __main__ -   Step 1/4 - Data Ingestion
+2026-03-16 18:01:28,163 [INFO] __main__ - ============================================================
+2026-03-16 18:01:28,163 [INFO] __main__ - Skipping fetch - using existing raw data
+2026-03-16 18:01:28,163 [INFO] __main__ - ============================================================
+2026-03-16 18:01:28,163 [INFO] __main__ -   Step 2/4 - Cleaning & Feature Engineering
+2026-03-16 18:01:28,163 [INFO] __main__ - ============================================================
+2026-03-16 18:01:28,488 [INFO] pipeline.cleaner - Bundesagentur cleaned: 1 jobs -> data/processed/bundesagentur_clean.csv
+2026-03-16 18:01:28,493 [INFO] pipeline.cleaner - Eurostat isoc_sks_itsps cleaned: 161 rows -> data/processed/eurostat_isoc_sks_itsps_clean.csv
+2026-03-16 18:01:28,510 [INFO] pipeline.cleaner - Eurostat htec_emp_nat2 cleaned: 136 rows -> data/processed/eurostat_htec_emp_nat2_clean.csv
+2026-03-16 18:01:28,596 [WARNING] pipeline.cleaner - Parse error for jvs_q_nace2: invalid literal for int() with base 10: '2001-Q1'
+2026-03-16 18:01:28,611 [INFO] pipeline.features - Job features built: 1 rows -> data/processed/job_features.csv
+2026-03-16 18:01:28,618 [INFO] pipeline.features - Country comparison built: 8 countries -> data/processed/country_comparison.csv
+2026-03-16 18:01:28,623 [INFO] pipeline.features - Time series built: 297 rows -> data/processed/timeseries.csv
+2026-03-16 18:01:28,623 [INFO] __main__ - ============================================================
+2026-03-16 18:01:28,623 [INFO] __main__ -   Step 3/4 - Forecasting
+2026-03-16 18:01:28,623 [INFO] __main__ - ============================================================
+2026-03-16 18:01:29,512 [INFO] model.forecaster - Forecast DE/htec_emp_nat2: R2=-3.655 MAE=1475.4 forecast_end=2029
+2026-03-16 18:01:29,516 [INFO] model.forecaster - Forecast DE/isoc_sks_itsps: R2=-4.384 MAE=190.0 forecast_end=2029
+2026-03-16 18:01:29,521 [INFO] model.forecaster - Forecast EE/htec_emp_nat2: R2=-0.171 MAE=19.3 forecast_end=2029
+2026-03-16 18:01:29,526 [INFO] model.forecaster - Forecast EE/isoc_sks_itsps: R2=-4.135 MAE=4.4 forecast_end=2029
+2026-03-16 18:01:29,531 [INFO] model.forecaster - Forecast EU27_2020/htec_emp_nat2: R2=-5.285 MAE=8487.6 forecast_end=2029
+2026-03-16 18:01:29,535 [INFO] model.forecaster - Forecast EU27_2020/isoc_sks_itsps: R2=-0.111 MAE=497.3 forecast_end=2029
+2026-03-16 18:01:29,540 [INFO] model.forecaster - Forecast IE/htec_emp_nat2: R2=-0.453 MAE=133.9 forecast_end=2029
+2026-03-16 18:01:29,545 [INFO] model.forecaster - Forecast IE/isoc_sks_itsps: R2=-2.729 MAE=18.3 forecast_end=2029
+2026-03-16 18:01:29,550 [INFO] model.forecaster - Forecast NL/htec_emp_nat2: R2=0.739 MAE=75.8 forecast_end=2029
+2026-03-16 18:01:29,554 [INFO] model.forecaster - Forecast NL/isoc_sks_itsps: R2=-0.151 MAE=42.3 forecast_end=2029
+2026-03-16 18:01:29,559 [INFO] model.forecaster - Forecast NO/htec_emp_nat2: R2=-4.006 MAE=96.3 forecast_end=2029
+2026-03-16 18:01:29,564 [INFO] model.forecaster - Forecast NO/isoc_sks_itsps: R2=-7.494 MAE=8.7 forecast_end=2029
+2026-03-16 18:01:29,568 [INFO] model.forecaster - Forecast PL/htec_emp_nat2: R2=-324.121 MAE=797.5 forecast_end=2029
+2026-03-16 18:01:29,573 [INFO] model.forecaster - Forecast PL/isoc_sks_itsps: R2=-2.507 MAE=87.8 forecast_end=2029
+2026-03-16 18:01:29,578 [INFO] model.forecaster - Forecast PT/htec_emp_nat2: R2=-17.556 MAE=512.3 forecast_end=2029
+2026-03-16 18:01:29,583 [INFO] model.forecaster - Forecast PT/isoc_sks_itsps: R2=-0.031 MAE=16.5 forecast_end=2029
+2026-03-16 18:01:29,586 [INFO] model.forecaster - All forecasts saved: data/models/forecasts.csv
+2026-03-16 18:01:29,588 [INFO] model.forecaster - Model metrics saved: data/models/model_metrics.csv
+2026-03-16 18:01:29,588 [INFO] model.forecaster - Forecasting complete: 16/16 successful
+2026-03-16 18:01:29,588 [INFO] __main__ - Forecasts: 16/16 successful
+2026-03-16 18:01:29,590 [INFO] __main__ - ============================================================
+2026-03-16 18:01:29,590 [INFO] __main__ -   Step 4/4 - Dashboard & Report
+2026-03-16 18:01:29,590 [INFO] __main__ - ============================================================
+2026-03-16 18:01:30,210 [INFO] dashboard.visualizer - Plot saved: docs/plots/01_job_distribution.png
+2026-03-16 18:01:30,461 [INFO] dashboard.visualizer - Plot saved: docs/plots/02_country_comparison.png
+2026-03-16 18:01:30,768 [INFO] dashboard.visualizer - Plot saved: docs/plots/03_timeseries.png
+2026-03-16 18:01:31,070 [INFO] dashboard.visualizer - Plot saved: docs/plots/04_forecast.png
+2026-03-16 18:01:31,071 [INFO] dashboard.visualizer - 4 plots generated
+2026-03-16 18:01:31,071 [INFO] __main__ - 4 plots generated
+2026-03-16 18:01:31,079 [INFO] dashboard.report - HTML report saved: docs/reports/report_20260316_180131.html
+2026-03-16 18:01:31,079 [INFO] __main__ - Report: docs/reports/report_20260316_180131.html
+2026-03-16 18:01:31,079 [INFO] __main__ - ============================================================
+2026-03-16 18:01:31,079 [INFO] __main__ -   Pipeline complete
+2026-03-16 18:01:31,079 [INFO] __main__ - ============================================================
+2026-03-16 18:01:31,079 [INFO] __main__ - Plots   : docs/plots
+2026-03-16 18:01:31,079 [INFO] __main__ - Reports : docs/reports
+2026-03-16 18:01:31,080 [INFO] __main__ - Log     : pipeline.log
+2026-03-16 18:27:23,545 [INFO] __main__ - ============================================================
+2026-03-16 18:27:23,545 [INFO] __main__ -   Step 1/4 - Data Ingestion
+2026-03-16 18:27:23,545 [INFO] __main__ - ============================================================
+2026-03-16 18:27:23,545 [INFO] __main__ - Skipping fetch - using existing raw data
+2026-03-16 18:27:23,545 [INFO] __main__ - ============================================================
+2026-03-16 18:27:23,545 [INFO] __main__ -   Step 2/4 - Cleaning & Feature Engineering
+2026-03-16 18:27:23,545 [INFO] __main__ - ============================================================
+2026-03-16 18:27:23,871 [INFO] pipeline.cleaner - Bundesagentur cleaned: 1 jobs -> data/processed/bundesagentur_clean.csv
+2026-03-16 18:27:23,876 [INFO] pipeline.cleaner - Eurostat isoc_sks_itsps cleaned: 161 rows -> data/processed/eurostat_isoc_sks_itsps_clean.csv
+2026-03-16 18:27:23,894 [INFO] pipeline.cleaner - Eurostat htec_emp_nat2 cleaned: 136 rows -> data/processed/eurostat_htec_emp_nat2_clean.csv
+2026-03-16 18:27:23,983 [WARNING] pipeline.cleaner - Parse error for jvs_q_nace2: invalid literal for int() with base 10: '2001-Q1'
+2026-03-16 18:27:24,002 [INFO] pipeline.features - Job features built: 1 rows -> data/processed/job_features.csv
+2026-03-16 18:27:24,011 [INFO] pipeline.features - Country comparison built: 8 countries -> data/processed/country_comparison.csv
+2026-03-16 18:27:24,016 [INFO] pipeline.features - Time series built: 297 rows -> data/processed/timeseries.csv
+2026-03-16 18:27:24,016 [INFO] __main__ - ============================================================
+2026-03-16 18:27:24,016 [INFO] __main__ -   Step 3/4 - Forecasting
+2026-03-16 18:27:24,016 [INFO] __main__ - ============================================================
+2026-03-16 18:27:24,884 [INFO] model.forecaster - Forecast DE/htec_emp_nat2: R2=-3.655 MAE=1475.4 forecast_end=2029
+2026-03-16 18:27:24,890 [INFO] model.forecaster - Forecast DE/isoc_sks_itsps: R2=-4.384 MAE=190.0 forecast_end=2029
+2026-03-16 18:27:24,895 [INFO] model.forecaster - Forecast EE/htec_emp_nat2: R2=-0.171 MAE=19.3 forecast_end=2029
+2026-03-16 18:27:24,901 [INFO] model.forecaster - Forecast EE/isoc_sks_itsps: R2=-4.135 MAE=4.4 forecast_end=2029
+2026-03-16 18:27:24,905 [INFO] model.forecaster - Forecast EU27_2020/htec_emp_nat2: R2=-5.285 MAE=8487.6 forecast_end=2029
+2026-03-16 18:27:24,910 [INFO] model.forecaster - Forecast EU27_2020/isoc_sks_itsps: R2=-0.111 MAE=497.3 forecast_end=2029
+2026-03-16 18:27:24,915 [INFO] model.forecaster - Forecast IE/htec_emp_nat2: R2=-0.453 MAE=133.9 forecast_end=2029
+2026-03-16 18:27:24,921 [INFO] model.forecaster - Forecast IE/isoc_sks_itsps: R2=-2.729 MAE=18.3 forecast_end=2029
+2026-03-16 18:27:24,926 [INFO] model.forecaster - Forecast NL/htec_emp_nat2: R2=0.739 MAE=75.8 forecast_end=2029
+2026-03-16 18:27:24,930 [INFO] model.forecaster - Forecast NL/isoc_sks_itsps: R2=-0.151 MAE=42.3 forecast_end=2029
+2026-03-16 18:27:24,936 [INFO] model.forecaster - Forecast NO/htec_emp_nat2: R2=-4.006 MAE=96.3 forecast_end=2029
+2026-03-16 18:27:24,941 [INFO] model.forecaster - Forecast NO/isoc_sks_itsps: R2=-7.494 MAE=8.7 forecast_end=2029
+2026-03-16 18:27:24,946 [INFO] model.forecaster - Forecast PL/htec_emp_nat2: R2=-324.121 MAE=797.5 forecast_end=2029
+2026-03-16 18:27:24,951 [INFO] model.forecaster - Forecast PL/isoc_sks_itsps: R2=-2.507 MAE=87.8 forecast_end=2029
+2026-03-16 18:27:24,956 [INFO] model.forecaster - Forecast PT/htec_emp_nat2: R2=-17.556 MAE=512.3 forecast_end=2029
+2026-03-16 18:27:24,961 [INFO] model.forecaster - Forecast PT/isoc_sks_itsps: R2=-0.031 MAE=16.5 forecast_end=2029
+2026-03-16 18:27:24,964 [INFO] model.forecaster - All forecasts saved: data/models/forecasts.csv
+2026-03-16 18:27:24,966 [INFO] model.forecaster - Model metrics saved: data/models/model_metrics.csv
+2026-03-16 18:27:24,966 [INFO] model.forecaster - Forecasting complete: 16/16 successful
+2026-03-16 18:27:24,966 [INFO] __main__ - Forecasts: 16/16 successful
+2026-03-16 18:27:24,968 [INFO] __main__ - ============================================================
+2026-03-16 18:27:24,968 [INFO] __main__ -   Step 4/4 - Dashboard & Report
+2026-03-16 18:27:24,968 [INFO] __main__ - ============================================================
+2026-03-16 18:28:02,848 [INFO] __main__ - ============================================================
+2026-03-16 18:28:02,848 [INFO] __main__ -   Step 1/4 - Data Ingestion
+2026-03-16 18:28:02,848 [INFO] __main__ - ============================================================
+2026-03-16 18:28:02,848 [INFO] __main__ - Skipping fetch - using existing raw data
+2026-03-16 18:28:02,848 [INFO] __main__ - ============================================================
+2026-03-16 18:28:02,848 [INFO] __main__ -   Step 2/4 - Cleaning & Feature Engineering
+2026-03-16 18:28:02,848 [INFO] __main__ - ============================================================
+2026-03-16 18:28:03,134 [INFO] pipeline.cleaner - Bundesagentur cleaned: 1 jobs -> data/processed/bundesagentur_clean.csv
+2026-03-16 18:28:03,138 [INFO] pipeline.cleaner - Eurostat isoc_sks_itsps cleaned: 161 rows -> data/processed/eurostat_isoc_sks_itsps_clean.csv
+2026-03-16 18:28:03,152 [INFO] pipeline.cleaner - Eurostat htec_emp_nat2 cleaned: 136 rows -> data/processed/eurostat_htec_emp_nat2_clean.csv
+2026-03-16 18:28:03,227 [WARNING] pipeline.cleaner - Parse error for jvs_q_nace2: invalid literal for int() with base 10: '2001-Q1'
+2026-03-16 18:28:03,240 [INFO] pipeline.features - Job features built: 1 rows -> data/processed/job_features.csv
+2026-03-16 18:28:03,246 [INFO] pipeline.features - Country comparison built: 8 countries -> data/processed/country_comparison.csv
+2026-03-16 18:28:03,251 [INFO] pipeline.features - Time series built: 297 rows -> data/processed/timeseries.csv
+2026-03-16 18:28:03,252 [INFO] __main__ - ============================================================
+2026-03-16 18:28:03,252 [INFO] __main__ -   Step 3/4 - Forecasting
+2026-03-16 18:28:03,252 [INFO] __main__ - ============================================================
+2026-03-16 18:28:04,013 [INFO] model.forecaster - Forecast DE/htec_emp_nat2: R2=-3.655 MAE=1475.4 forecast_end=2029
+2026-03-16 18:28:04,018 [INFO] model.forecaster - Forecast DE/isoc_sks_itsps: R2=-4.384 MAE=190.0 forecast_end=2029
+2026-03-16 18:28:04,022 [INFO] model.forecaster - Forecast EE/htec_emp_nat2: R2=-0.171 MAE=19.3 forecast_end=2029
+2026-03-16 18:28:04,026 [INFO] model.forecaster - Forecast EE/isoc_sks_itsps: R2=-4.135 MAE=4.4 forecast_end=2029
+2026-03-16 18:28:04,030 [INFO] model.forecaster - Forecast EU27_2020/htec_emp_nat2: R2=-5.285 MAE=8487.6 forecast_end=2029
+2026-03-16 18:28:04,034 [INFO] model.forecaster - Forecast EU27_2020/isoc_sks_itsps: R2=-0.111 MAE=497.3 forecast_end=2029
+2026-03-16 18:28:04,038 [INFO] model.forecaster - Forecast IE/htec_emp_nat2: R2=-0.453 MAE=133.9 forecast_end=2029
+2026-03-16 18:28:04,042 [INFO] model.forecaster - Forecast IE/isoc_sks_itsps: R2=-2.729 MAE=18.3 forecast_end=2029
+2026-03-16 18:28:04,046 [INFO] model.forecaster - Forecast NL/htec_emp_nat2: R2=0.739 MAE=75.8 forecast_end=2029
+2026-03-16 18:28:04,050 [INFO] model.forecaster - Forecast NL/isoc_sks_itsps: R2=-0.151 MAE=42.3 forecast_end=2029
+2026-03-16 18:28:04,055 [INFO] model.forecaster - Forecast NO/htec_emp_nat2: R2=-4.006 MAE=96.3 forecast_end=2029
+2026-03-16 18:28:04,058 [INFO] model.forecaster - Forecast NO/isoc_sks_itsps: R2=-7.494 MAE=8.7 forecast_end=2029
+2026-03-16 18:28:04,062 [INFO] model.forecaster - Forecast PL/htec_emp_nat2: R2=-324.121 MAE=797.5 forecast_end=2029
+2026-03-16 18:28:04,067 [INFO] model.forecaster - Forecast PL/isoc_sks_itsps: R2=-2.507 MAE=87.8 forecast_end=2029
+2026-03-16 18:28:04,071 [INFO] model.forecaster - Forecast PT/htec_emp_nat2: R2=-17.556 MAE=512.3 forecast_end=2029
+2026-03-16 18:28:04,075 [INFO] model.forecaster - Forecast PT/isoc_sks_itsps: R2=-0.031 MAE=16.5 forecast_end=2029
+2026-03-16 18:28:04,078 [INFO] model.forecaster - All forecasts saved: data/models/forecasts.csv
+2026-03-16 18:28:04,079 [INFO] model.forecaster - Model metrics saved: data/models/model_metrics.csv
+2026-03-16 18:28:04,079 [INFO] model.forecaster - Forecasting complete: 16/16 successful
+2026-03-16 18:28:04,079 [INFO] __main__ - Forecasts: 16/16 successful
+2026-03-16 18:28:04,080 [INFO] __main__ - ============================================================
+2026-03-16 18:28:04,081 [INFO] __main__ -   Step 4/4 - Dashboard & Report
+2026-03-16 18:28:04,081 [INFO] __main__ - ============================================================
+2026-03-16 18:32:08,333 [INFO] __main__ - ============================================================
+2026-03-16 18:32:08,333 [INFO] __main__ -   Step 1/4 - Data Ingestion
+2026-03-16 18:32:08,357 [INFO] __main__ - ============================================================
+2026-03-16 18:32:08,357 [INFO] __main__ - Skipping fetch - using existing raw data
+2026-03-16 18:32:08,357 [INFO] __main__ - ============================================================
+2026-03-16 18:32:08,357 [INFO] __main__ -   Step 2/4 - Cleaning & Feature Engineering
+2026-03-16 18:32:08,357 [INFO] __main__ - ============================================================
+2026-03-16 18:32:08,650 [INFO] pipeline.cleaner - Bundesagentur cleaned: 1 jobs -> data/processed/bundesagentur_clean.csv
+2026-03-16 18:32:08,655 [INFO] pipeline.cleaner - Eurostat isoc_sks_itsps cleaned: 161 rows -> data/processed/eurostat_isoc_sks_itsps_clean.csv
+2026-03-16 18:32:08,670 [INFO] pipeline.cleaner - Eurostat htec_emp_nat2 cleaned: 136 rows -> data/processed/eurostat_htec_emp_nat2_clean.csv
+2026-03-16 18:32:08,747 [WARNING] pipeline.cleaner - Parse error for jvs_q_nace2: invalid literal for int() with base 10: '2001-Q1'
+2026-03-16 18:32:08,761 [INFO] pipeline.features - Job features built: 1 rows -> data/processed/job_features.csv
+2026-03-16 18:32:08,767 [INFO] pipeline.features - Country comparison built: 8 countries -> data/processed/country_comparison.csv
+2026-03-16 18:32:08,772 [INFO] pipeline.features - Time series built: 297 rows -> data/processed/timeseries.csv
+2026-03-16 18:32:08,773 [INFO] __main__ - ============================================================
+2026-03-16 18:32:08,773 [INFO] __main__ -   Step 3/4 - Forecasting
+2026-03-16 18:32:08,773 [INFO] __main__ - ============================================================
+2026-03-16 18:32:09,595 [INFO] model.forecaster - Forecast DE/htec_emp_nat2: R2=-3.655 MAE=1475.4 forecast_end=2029
+2026-03-16 18:32:09,600 [INFO] model.forecaster - Forecast DE/isoc_sks_itsps: R2=-4.384 MAE=190.0 forecast_end=2029
+2026-03-16 18:32:09,604 [INFO] model.forecaster - Forecast EE/htec_emp_nat2: R2=-0.171 MAE=19.3 forecast_end=2029
+2026-03-16 18:32:09,609 [INFO] model.forecaster - Forecast EE/isoc_sks_itsps: R2=-4.135 MAE=4.4 forecast_end=2029
+2026-03-16 18:32:09,613 [INFO] model.forecaster - Forecast EU27_2020/htec_emp_nat2: R2=-5.285 MAE=8487.6 forecast_end=2029
+2026-03-16 18:32:09,617 [INFO] model.forecaster - Forecast EU27_2020/isoc_sks_itsps: R2=-0.111 MAE=497.3 forecast_end=2029
+2026-03-16 18:32:09,623 [INFO] model.forecaster - Forecast IE/htec_emp_nat2: R2=-0.453 MAE=133.9 forecast_end=2029
+2026-03-16 18:32:09,627 [INFO] model.forecaster - Forecast IE/isoc_sks_itsps: R2=-2.729 MAE=18.3 forecast_end=2029
+2026-03-16 18:32:09,631 [INFO] model.forecaster - Forecast NL/htec_emp_nat2: R2=0.739 MAE=75.8 forecast_end=2029
+2026-03-16 18:32:09,636 [INFO] model.forecaster - Forecast NL/isoc_sks_itsps: R2=-0.151 MAE=42.3 forecast_end=2029
+2026-03-16 18:32:09,641 [INFO] model.forecaster - Forecast NO/htec_emp_nat2: R2=-4.006 MAE=96.3 forecast_end=2029
+2026-03-16 18:32:09,645 [INFO] model.forecaster - Forecast NO/isoc_sks_itsps: R2=-7.494 MAE=8.7 forecast_end=2029
+2026-03-16 18:32:09,650 [INFO] model.forecaster - Forecast PL/htec_emp_nat2: R2=-324.121 MAE=797.5 forecast_end=2029
+2026-03-16 18:32:09,655 [INFO] model.forecaster - Forecast PL/isoc_sks_itsps: R2=-2.507 MAE=87.8 forecast_end=2029
+2026-03-16 18:32:09,659 [INFO] model.forecaster - Forecast PT/htec_emp_nat2: R2=-17.556 MAE=512.3 forecast_end=2029
+2026-03-16 18:32:09,663 [INFO] model.forecaster - Forecast PT/isoc_sks_itsps: R2=-0.031 MAE=16.5 forecast_end=2029
+2026-03-16 18:32:09,666 [INFO] model.forecaster - All forecasts saved: data/models/forecasts.csv
+2026-03-16 18:32:09,668 [INFO] model.forecaster - Model metrics saved: data/models/model_metrics.csv
+2026-03-16 18:32:09,668 [INFO] model.forecaster - Forecasting complete: 16/16 successful
+2026-03-16 18:32:09,668 [INFO] __main__ - Forecasts: 16/16 successful
+2026-03-16 18:32:09,669 [INFO] __main__ - ============================================================
+2026-03-16 18:32:09,669 [INFO] __main__ -   Step 4/4 - Dashboard & Report
+2026-03-16 18:32:09,669 [INFO] __main__ - ============================================================
+2026-03-16 18:32:10,272 [INFO] dashboard.visualizer - Plot saved: docs/plots/01_job_distribution.png
+2026-03-16 18:32:10,576 [INFO] dashboard.visualizer - Plot saved: docs/plots/02_country_comparison.png
+2026-03-16 18:32:10,872 [INFO] dashboard.visualizer - Plot saved: docs/plots/03_timeseries.png
+2026-03-16 18:32:11,191 [INFO] dashboard.visualizer - Plot saved: docs/plots/04_forecast.png
+2026-03-16 18:32:11,191 [INFO] dashboard.visualizer - 4 plots generated
+2026-03-16 18:32:11,191 [INFO] __main__ - 4 plots generated
+2026-03-16 18:32:11,199 [INFO] dashboard.report - HTML report saved: docs/reports/report_20260316_183211.html
+2026-03-16 18:32:11,200 [INFO] __main__ - Report: docs/reports/report_20260316_183211.html
+2026-03-16 18:32:11,200 [INFO] __main__ - ============================================================
+2026-03-16 18:32:11,200 [INFO] __main__ -   Pipeline complete
+2026-03-16 18:32:11,200 [INFO] __main__ - ============================================================
+2026-03-16 18:32:11,200 [INFO] __main__ - Plots   : docs/plots
+2026-03-16 18:32:11,200 [INFO] __main__ - Reports : docs/reports
+2026-03-16 18:32:11,200 [INFO] __main__ - Log     : pipeline.log
+2026-03-16 18:35:42,753 [INFO] __main__ - ============================================================
+2026-03-16 18:35:42,753 [INFO] __main__ -   Step 1/4 - Data Ingestion
+2026-03-16 18:35:42,753 [INFO] __main__ - ============================================================
+2026-03-16 18:35:43,094 [INFO] ingestion.bundesagentur - Starting full fetch: 5 codes x 5 regions = 25 requests
+2026-03-16 18:35:43,095 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Bayern
+2026-03-16 18:35:43,903 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057499)
+2026-03-16 18:35:44,407 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Berlin
+2026-03-16 18:35:45,316 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057501)
+2026-03-16 18:35:45,818 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Hamburg
+2026-03-16 18:35:46,707 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057499)
+2026-03-16 18:35:47,209 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Nordrhein-Westfalen
+2026-03-16 18:35:48,052 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057499)
+2026-03-16 18:35:48,555 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Baden-Wuerttemberg
+2026-03-16 18:35:49,344 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057499)
+2026-03-16 18:35:49,846 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Bayern
+2026-03-16 18:35:50,814 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057499)
+2026-03-16 18:35:51,316 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Berlin
+2026-03-16 18:35:52,133 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057499)
+2026-03-16 18:35:52,636 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Hamburg
+2026-03-16 18:35:53,531 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057499)
+2026-03-16 18:35:54,033 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Nordrhein-Westfalen
+2026-03-16 18:35:54,951 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057499)
+2026-03-16 18:35:55,454 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Baden-Wuerttemberg
+2026-03-16 18:35:56,271 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057499)
+2026-03-16 18:35:56,774 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Bayern
+2026-03-16 18:35:57,602 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057499)
+2026-03-16 18:35:58,105 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Berlin
+2026-03-16 18:35:58,985 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057499)
+2026-03-16 18:35:59,488 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Hamburg
+2026-03-16 18:36:00,328 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057501)
+2026-03-16 18:36:00,831 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Nordrhein-Westfalen
+2026-03-16 18:36:01,770 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057499)
+2026-03-16 18:36:02,272 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Baden-Wuerttemberg
+2026-03-16 18:36:03,194 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057499)
+2026-03-16 18:36:03,697 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Bayern
+2026-03-16 18:36:04,496 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057499)
+2026-03-16 18:36:04,999 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Berlin
+2026-03-16 18:36:05,863 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057501)
+2026-03-16 18:36:06,365 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Hamburg
+2026-03-16 18:36:07,267 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057499)
+2026-03-16 18:36:07,770 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Nordrhein-Westfalen
+2026-03-16 18:36:08,693 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057502)
+2026-03-16 18:36:09,196 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Baden-Wuerttemberg
+2026-03-16 18:36:10,085 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057500)
+2026-03-16 18:36:10,588 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Bayern
+2026-03-16 18:36:11,434 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057502)
+2026-03-16 18:36:11,938 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Berlin
+2026-03-16 18:36:12,759 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057500)
+2026-03-16 18:36:13,263 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Hamburg
+2026-03-16 18:36:14,022 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057500)
+2026-03-16 18:36:14,524 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Nordrhein-Westfalen
+2026-03-16 18:36:15,401 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057502)
+2026-03-16 18:36:15,905 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Baden-Wuerttemberg
+2026-03-16 18:36:16,907 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057500)
+2026-03-16 18:36:17,410 [INFO] ingestion.bundesagentur - Fetch complete: 25/25 successful
+2026-03-16 18:36:17,410 [INFO] __main__ - Bundesagentur: 25/25 requests successful
+2026-03-16 18:36:17,410 [INFO] ingestion.eurostat - Fetching Eurostat dataset: isoc_sks_itsps
+2026-03-16 18:36:17,529 [INFO] ingestion.eurostat -   -> 161 rows fetched for 8 countries
+2026-03-16 18:36:18,530 [INFO] ingestion.eurostat - Fetching Eurostat dataset: htec_emp_nat2
+2026-03-16 18:36:18,813 [INFO] ingestion.eurostat -   -> 136 rows fetched for 8 countries
+2026-03-16 18:36:19,816 [INFO] ingestion.eurostat - Fetching Eurostat dataset: jvs_q_nace2
+2026-03-16 18:36:20,916 [ERROR] ingestion.eurostat -   -> Parse failed: Failed to parse dataset jvs_q_nace2: invalid literal for int() with base 10: '2001-Q1'
+2026-03-16 18:36:21,923 [INFO] ingestion.eurostat - Eurostat fetch complete: 2/3 successful
+2026-03-16 18:36:21,923 [INFO] __main__ - Eurostat: 2/3 datasets successful
+2026-03-16 18:36:21,923 [INFO] __main__ - ============================================================
+2026-03-16 18:36:21,923 [INFO] __main__ -   Step 2/4 - Cleaning & Feature Engineering
+2026-03-16 18:36:21,923 [INFO] __main__ - ============================================================
+2026-03-16 18:36:21,953 [INFO] pipeline.cleaner - Bundesagentur cleaned: 1 jobs -> data/processed/bundesagentur_clean.csv
+2026-03-16 18:36:21,957 [INFO] pipeline.cleaner - Eurostat isoc_sks_itsps cleaned: 161 rows -> data/processed/eurostat_isoc_sks_itsps_clean.csv
+2026-03-16 18:36:21,969 [INFO] pipeline.cleaner - Eurostat htec_emp_nat2 cleaned: 136 rows -> data/processed/eurostat_htec_emp_nat2_clean.csv
+2026-03-16 18:36:22,039 [WARNING] pipeline.cleaner - Parse error for jvs_q_nace2: invalid literal for int() with base 10: '2001-Q1'
+2026-03-16 18:36:22,053 [INFO] pipeline.features - Job features built: 1 rows -> data/processed/job_features.csv
+2026-03-16 18:36:22,059 [INFO] pipeline.features - Country comparison built: 8 countries -> data/processed/country_comparison.csv
+2026-03-16 18:36:22,063 [INFO] pipeline.features - Time series built: 297 rows -> data/processed/timeseries.csv
+2026-03-16 18:36:22,064 [INFO] __main__ - ============================================================
+2026-03-16 18:36:22,064 [INFO] __main__ -   Step 3/4 - Forecasting
+2026-03-16 18:36:22,064 [INFO] __main__ - ============================================================
+2026-03-16 18:36:22,850 [INFO] model.forecaster - Forecast DE/htec_emp_nat2: R2=-3.655 MAE=1475.4 forecast_end=2029
+2026-03-16 18:36:22,856 [INFO] model.forecaster - Forecast DE/isoc_sks_itsps: R2=-4.384 MAE=190.0 forecast_end=2029
+2026-03-16 18:36:22,861 [INFO] model.forecaster - Forecast EE/htec_emp_nat2: R2=-0.171 MAE=19.3 forecast_end=2029
+2026-03-16 18:36:22,866 [INFO] model.forecaster - Forecast EE/isoc_sks_itsps: R2=-4.135 MAE=4.4 forecast_end=2029
+2026-03-16 18:36:22,871 [INFO] model.forecaster - Forecast EU27_2020/htec_emp_nat2: R2=-5.285 MAE=8487.6 forecast_end=2029
+2026-03-16 18:36:22,875 [INFO] model.forecaster - Forecast EU27_2020/isoc_sks_itsps: R2=-0.111 MAE=497.3 forecast_end=2029
+2026-03-16 18:36:22,881 [INFO] model.forecaster - Forecast IE/htec_emp_nat2: R2=-0.453 MAE=133.9 forecast_end=2029
+2026-03-16 18:36:22,886 [INFO] model.forecaster - Forecast IE/isoc_sks_itsps: R2=-2.729 MAE=18.3 forecast_end=2029
+2026-03-16 18:36:22,891 [INFO] model.forecaster - Forecast NL/htec_emp_nat2: R2=0.739 MAE=75.8 forecast_end=2029
+2026-03-16 18:36:22,895 [INFO] model.forecaster - Forecast NL/isoc_sks_itsps: R2=-0.151 MAE=42.3 forecast_end=2029
+2026-03-16 18:36:22,900 [INFO] model.forecaster - Forecast NO/htec_emp_nat2: R2=-4.006 MAE=96.3 forecast_end=2029
+2026-03-16 18:36:22,905 [INFO] model.forecaster - Forecast NO/isoc_sks_itsps: R2=-7.494 MAE=8.7 forecast_end=2029
+2026-03-16 18:36:22,909 [INFO] model.forecaster - Forecast PL/htec_emp_nat2: R2=-324.121 MAE=797.5 forecast_end=2029
+2026-03-16 18:36:22,915 [INFO] model.forecaster - Forecast PL/isoc_sks_itsps: R2=-2.507 MAE=87.8 forecast_end=2029
+2026-03-16 18:36:22,934 [INFO] model.forecaster - Forecast PT/htec_emp_nat2: R2=-17.556 MAE=512.3 forecast_end=2029
+2026-03-16 18:36:22,938 [INFO] model.forecaster - Forecast PT/isoc_sks_itsps: R2=-0.031 MAE=16.5 forecast_end=2029
+2026-03-16 18:36:22,942 [INFO] model.forecaster - All forecasts saved: data/models/forecasts.csv
+2026-03-16 18:36:22,943 [INFO] model.forecaster - Model metrics saved: data/models/model_metrics.csv
+2026-03-16 18:36:22,943 [INFO] model.forecaster - Forecasting complete: 16/16 successful
+2026-03-16 18:36:22,943 [INFO] __main__ - Forecasts: 16/16 successful
+2026-03-16 18:36:22,945 [INFO] __main__ - ============================================================
+2026-03-16 18:36:22,945 [INFO] __main__ -   Step 4/4 - Dashboard & Report
+2026-03-16 18:36:22,945 [INFO] __main__ - ============================================================
+2026-03-16 18:36:23,522 [INFO] dashboard.visualizer - Plot saved: docs/plots/01_job_distribution.png
+2026-03-16 18:36:23,759 [INFO] dashboard.visualizer - Plot saved: docs/plots/02_country_comparison.png
+2026-03-16 18:36:24,039 [INFO] dashboard.visualizer - Plot saved: docs/plots/03_timeseries.png
+2026-03-16 18:36:24,395 [INFO] dashboard.visualizer - Plot saved: docs/plots/04_forecast.png
+2026-03-16 18:36:24,395 [INFO] dashboard.visualizer - 4 plots generated
+2026-03-16 18:36:24,395 [INFO] __main__ - 4 plots generated
+2026-03-16 18:36:24,404 [INFO] dashboard.report - HTML report saved: docs/reports/report_20260316_183624.html
+2026-03-16 18:36:24,404 [INFO] __main__ - Report: docs/reports/report_20260316_183624.html
+2026-03-16 18:36:24,404 [INFO] __main__ - ============================================================
+2026-03-16 18:36:24,404 [INFO] __main__ -   Pipeline complete
+2026-03-16 18:36:24,404 [INFO] __main__ - ============================================================
+2026-03-16 18:36:24,404 [INFO] __main__ - Plots   : docs/plots
+2026-03-16 18:36:24,404 [INFO] __main__ - Reports : docs/reports
+2026-03-16 18:36:24,404 [INFO] __main__ - Log     : pipeline.log
+2026-03-16 18:48:17,509 [INFO] __main__ - ============================================================
+2026-03-16 18:48:17,510 [INFO] __main__ -   Step 1/4 - Data Ingestion
+2026-03-16 18:48:17,510 [INFO] __main__ - ============================================================
+2026-03-16 18:48:17,854 [INFO] ingestion.bundesagentur - Starting full fetch: 5 codes x 5 regions = 25 requests
+2026-03-16 18:48:17,854 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Bayern
+2026-03-16 18:48:18,663 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057519)
+2026-03-16 18:48:19,166 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Berlin
+2026-03-16 18:48:20,097 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057519)
+2026-03-16 18:48:20,600 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Hamburg
+2026-03-16 18:48:21,373 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057519)
+2026-03-16 18:48:21,876 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Nordrhein-Westfalen
+2026-03-16 18:48:22,700 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057521)
+2026-03-16 18:48:23,202 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Baden-Wuerttemberg
+2026-03-16 18:48:24,064 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057519)
+2026-03-16 18:48:24,567 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Bayern
+2026-03-16 18:48:25,410 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057519)
+2026-03-16 18:48:25,912 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Berlin
+2026-03-16 18:48:26,747 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057521)
+2026-03-16 18:48:27,249 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Hamburg
+2026-03-16 18:48:28,104 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057521)
+2026-03-16 18:48:28,609 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Nordrhein-Westfalen
+2026-03-16 18:48:29,458 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057522)
+2026-03-16 18:48:29,960 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Baden-Wuerttemberg
+2026-03-16 18:48:30,760 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057522)
+2026-03-16 18:48:31,264 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Bayern
+2026-03-16 18:48:32,133 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057522)
+2026-03-16 18:48:32,635 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Berlin
+2026-03-16 18:48:33,469 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057522)
+2026-03-16 18:48:33,972 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Hamburg
+2026-03-16 18:48:34,781 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057523)
+2026-03-16 18:48:35,284 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Nordrhein-Westfalen
+2026-03-16 18:48:36,094 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057523)
+2026-03-16 18:48:36,596 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Baden-Wuerttemberg
+2026-03-16 18:48:37,424 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057523)
+2026-03-16 18:48:37,927 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Bayern
+2026-03-16 18:48:38,688 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057521)
+2026-03-16 18:48:39,191 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Berlin
+2026-03-16 18:48:39,983 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057521)
+2026-03-16 18:48:40,485 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Hamburg
+2026-03-16 18:48:41,327 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057523)
+2026-03-16 18:48:41,829 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Nordrhein-Westfalen
+2026-03-16 18:48:42,654 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057521)
+2026-03-16 18:48:43,156 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Baden-Wuerttemberg
+2026-03-16 18:48:44,074 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057523)
+2026-03-16 18:48:44,577 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Bayern
+2026-03-16 18:48:45,407 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057521)
+2026-03-16 18:48:45,909 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Berlin
+2026-03-16 18:48:46,742 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057523)
+2026-03-16 18:48:47,245 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Hamburg
+2026-03-16 18:48:48,025 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057523)
+2026-03-16 18:48:48,528 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Nordrhein-Westfalen
+2026-03-16 18:48:49,374 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057526)
+2026-03-16 18:48:49,876 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Baden-Wuerttemberg
+2026-03-16 18:48:50,699 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057525)
+2026-03-16 18:48:51,202 [INFO] ingestion.bundesagentur - Fetch complete: 25/25 successful
+2026-03-16 18:48:51,202 [INFO] __main__ - Bundesagentur: 25/25 requests successful
+2026-03-16 18:48:51,202 [INFO] ingestion.eurostat - Fetching Eurostat dataset: isoc_sks_itsps
+2026-03-16 18:48:51,371 [INFO] ingestion.eurostat -   -> 161 rows fetched for 8 countries
+2026-03-16 18:48:52,371 [INFO] ingestion.eurostat - Fetching Eurostat dataset: htec_emp_nat2
+2026-03-16 18:48:52,748 [INFO] ingestion.eurostat -   -> 136 rows fetched for 8 countries
+2026-03-16 18:48:53,749 [INFO] ingestion.eurostat - Fetching Eurostat dataset: jvs_q_nace2
+2026-03-16 18:48:54,559 [ERROR] ingestion.eurostat -   -> Parse failed: Failed to parse dataset jvs_q_nace2: invalid literal for int() with base 10: '2001-Q1'
+2026-03-16 18:48:55,566 [INFO] ingestion.eurostat - Eurostat fetch complete: 2/3 successful
+2026-03-16 18:48:55,567 [INFO] __main__ - Eurostat: 2/3 datasets successful
+2026-03-16 18:48:55,567 [INFO] __main__ - ============================================================
+2026-03-16 18:48:55,567 [INFO] __main__ -   Step 2/4 - Cleaning & Feature Engineering
+2026-03-16 18:48:55,567 [INFO] __main__ - ============================================================
+2026-03-16 18:55:44,641 [INFO] __main__ - ============================================================
+2026-03-16 18:55:44,641 [INFO] __main__ -   Step 1/4 - Data Ingestion
+2026-03-16 18:55:44,641 [INFO] __main__ - ============================================================
+2026-03-16 18:55:45,038 [INFO] ingestion.bundesagentur - Starting full fetch: 5 codes x 5 regions = 25 requests
+2026-03-16 18:55:45,039 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Bayern
+2026-03-16 18:55:45,965 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057545)
+2026-03-16 18:55:46,472 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Berlin
+2026-03-16 18:55:47,359 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057548)
+2026-03-16 18:55:47,862 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Hamburg
+2026-03-16 18:55:48,677 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057548)
+2026-03-16 18:55:49,180 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Nordrhein-Westfalen
+2026-03-16 18:55:50,095 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057546)
+2026-03-16 18:55:50,598 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Baden-Wuerttemberg
+2026-03-16 18:55:51,507 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057548)
+2026-03-16 18:55:52,010 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Bayern
+2026-03-16 18:55:52,901 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057546)
+2026-03-16 18:55:53,405 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Berlin
+2026-03-16 18:55:54,380 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057546)
+2026-03-16 18:55:54,884 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Hamburg
+2026-03-16 18:55:55,722 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057548)
+2026-03-16 18:55:56,225 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Nordrhein-Westfalen
+2026-03-16 18:55:57,087 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057548)
+2026-03-16 18:55:57,590 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Baden-Wuerttemberg
+2026-03-16 18:55:58,414 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057548)
+2026-03-16 18:55:58,917 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Bayern
+2026-03-16 18:55:59,790 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057548)
+2026-03-16 18:56:00,295 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Berlin
+2026-03-16 18:56:01,127 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057548)
+2026-03-16 18:56:01,630 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Hamburg
+2026-03-16 18:56:02,470 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057548)
+2026-03-16 18:56:02,973 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Nordrhein-Westfalen
+2026-03-16 18:56:03,888 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057548)
+2026-03-16 18:56:04,391 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Baden-Wuerttemberg
+2026-03-16 18:56:05,349 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057546)
+2026-03-16 18:56:05,852 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Bayern
+2026-03-16 18:56:06,658 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057546)
+2026-03-16 18:56:07,161 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Berlin
+2026-03-16 18:56:07,987 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057548)
+2026-03-16 18:56:08,490 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Hamburg
+2026-03-16 18:56:09,287 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057546)
+2026-03-16 18:56:09,789 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Nordrhein-Westfalen
+2026-03-16 18:56:10,575 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057546)
+2026-03-16 18:56:11,078 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Baden-Wuerttemberg
+2026-03-16 18:56:11,931 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057546)
+2026-03-16 18:56:12,433 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Bayern
+2026-03-16 18:56:13,376 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057548)
+2026-03-16 18:56:13,879 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Berlin
+2026-03-16 18:56:14,719 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057548)
+2026-03-16 18:56:15,222 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Hamburg
+2026-03-16 18:56:16,084 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057549)
+2026-03-16 18:56:16,587 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Nordrhein-Westfalen
+2026-03-16 18:56:17,429 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057547)
+2026-03-16 18:56:17,932 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Baden-Wuerttemberg
+2026-03-16 18:56:18,810 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1057549)
+2026-03-16 18:56:19,312 [INFO] ingestion.bundesagentur - Fetch complete: 25/25 successful
+2026-03-16 18:56:19,312 [INFO] __main__ - Bundesagentur: 25/25 requests successful
+2026-03-16 18:56:19,312 [INFO] ingestion.eurostat - Fetching Eurostat dataset: isoc_sks_itsps
+2026-03-16 18:56:19,447 [INFO] ingestion.eurostat -   -> 161 rows fetched for 8 countries
+2026-03-16 18:56:20,447 [INFO] ingestion.eurostat - Fetching Eurostat dataset: htec_emp_nat2
+2026-03-16 18:56:20,663 [INFO] ingestion.eurostat -   -> 136 rows fetched for 8 countries
+2026-03-16 18:56:21,665 [INFO] ingestion.eurostat - Fetching Eurostat dataset: jvs_q_nace2
+2026-03-16 18:56:22,765 [ERROR] ingestion.eurostat -   -> Parse failed: Failed to parse dataset jvs_q_nace2: invalid literal for int() with base 10: '2001-Q1'
+2026-03-16 18:56:23,774 [INFO] ingestion.eurostat - Eurostat fetch complete: 2/3 successful
+2026-03-16 18:56:23,774 [INFO] __main__ - Eurostat: 2/3 datasets successful
+2026-03-16 18:56:23,774 [INFO] __main__ - ============================================================
+2026-03-16 18:56:23,774 [INFO] __main__ -   Step 2/4 - Cleaning & Feature Engineering
+2026-03-16 18:56:23,774 [INFO] __main__ - ============================================================
+2026-03-17 15:31:27,899 [INFO] __main__ - ============================================================
+2026-03-17 15:31:27,899 [INFO] __main__ -   Step 1/4 - Data Ingestion
+2026-03-17 15:31:27,900 [INFO] __main__ - ============================================================
+2026-03-17 15:31:28,545 [INFO] ingestion.bundesagentur - Starting full fetch: 5 codes x 5 regions = 25 requests
+2026-03-17 15:31:28,545 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Bayern
+2026-03-17 15:31:29,418 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059437)
+2026-03-17 15:31:29,923 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Berlin
+2026-03-17 15:31:30,849 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059435)
+2026-03-17 15:31:31,354 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Hamburg
+2026-03-17 15:31:32,296 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059434)
+2026-03-17 15:31:32,800 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Nordrhein-Westfalen
+2026-03-17 15:31:33,651 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059435)
+2026-03-17 15:31:34,156 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Baden-Wuerttemberg
+2026-03-17 15:31:35,074 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059437)
+2026-03-17 15:31:35,577 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Bayern
+2026-03-17 15:31:36,491 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059434)
+2026-03-17 15:31:36,995 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Berlin
+2026-03-17 15:31:37,802 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059433)
+2026-03-17 15:31:38,307 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Hamburg
+2026-03-17 15:31:39,219 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059435)
+2026-03-17 15:31:39,722 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Nordrhein-Westfalen
+2026-03-17 15:31:40,659 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059433)
+2026-03-17 15:31:41,162 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Baden-Wuerttemberg
+2026-03-17 15:31:41,977 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059435)
+2026-03-17 15:31:42,480 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Bayern
+2026-03-17 15:31:43,384 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059435)
+2026-03-17 15:31:43,887 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Berlin
+2026-03-17 15:31:44,767 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059435)
+2026-03-17 15:31:45,272 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Hamburg
+2026-03-17 15:31:46,199 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059435)
+2026-03-17 15:31:46,702 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Nordrhein-Westfalen
+2026-03-17 15:31:47,638 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059433)
+2026-03-17 15:31:48,143 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Baden-Wuerttemberg
+2026-03-17 15:31:48,980 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059433)
+2026-03-17 15:31:49,483 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Bayern
+2026-03-17 15:31:50,324 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059434)
+2026-03-17 15:31:50,838 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Berlin
+2026-03-17 15:31:51,725 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059436)
+2026-03-17 15:31:52,228 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Hamburg
+2026-03-17 15:31:53,115 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059434)
+2026-03-17 15:31:53,618 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Nordrhein-Westfalen
+2026-03-17 15:31:54,519 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059435)
+2026-03-17 15:31:55,021 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Baden-Wuerttemberg
+2026-03-17 15:31:55,846 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059437)
+2026-03-17 15:31:56,348 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Bayern
+2026-03-17 15:31:57,195 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059438)
+2026-03-17 15:31:57,697 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Berlin
+2026-03-17 15:31:58,523 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059438)
+2026-03-17 15:31:59,026 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Hamburg
+2026-03-17 15:31:59,865 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059436)
+2026-03-17 15:32:00,371 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Nordrhein-Westfalen
+2026-03-17 15:32:01,389 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059436)
+2026-03-17 15:32:01,892 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Baden-Wuerttemberg
+2026-03-17 15:32:02,790 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059438)
+2026-03-17 15:32:03,296 [INFO] ingestion.bundesagentur - Fetch complete: 25/25 successful
+2026-03-17 15:32:03,296 [INFO] __main__ - Bundesagentur: 25/25 requests successful
+2026-03-17 15:32:03,296 [INFO] ingestion.eurostat - Fetching Eurostat dataset: isoc_sks_itsps
+2026-03-17 15:32:03,478 [INFO] ingestion.eurostat -   -> 161 rows fetched for 8 countries
+2026-03-17 15:32:04,478 [INFO] ingestion.eurostat - Fetching Eurostat dataset: htec_emp_nat2
+2026-03-17 15:32:04,846 [INFO] ingestion.eurostat -   -> 136 rows fetched for 8 countries
+2026-03-17 15:32:05,848 [INFO] ingestion.eurostat - Fetching Eurostat dataset: jvs_q_nace2
+2026-03-17 15:32:06,715 [ERROR] ingestion.eurostat -   -> Parse failed: Failed to parse dataset jvs_q_nace2: invalid literal for int() with base 10: '2001-Q1'
+2026-03-17 15:32:07,722 [INFO] ingestion.eurostat - Eurostat fetch complete: 2/3 successful
+2026-03-17 15:32:07,723 [INFO] __main__ - Eurostat: 2/3 datasets successful
+2026-03-17 15:32:07,723 [INFO] __main__ - ============================================================
+2026-03-17 15:32:07,723 [INFO] __main__ -   Step 2/4 - Cleaning & Feature Engineering
+2026-03-17 15:32:07,723 [INFO] __main__ - ============================================================
+2026-03-17 16:26:58,062 [INFO] __main__ - ============================================================
+2026-03-17 16:26:58,062 [INFO] __main__ -   Step 1/4 - Data Ingestion
+2026-03-17 16:26:58,062 [INFO] __main__ - ============================================================
+2026-03-17 16:26:58,388 [INFO] ingestion.bundesagentur - Starting full fetch: 5 codes x 5 regions = 25 requests
+2026-03-17 16:26:58,388 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Bayern
+2026-03-17 16:26:59,301 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059601)
+2026-03-17 16:26:59,804 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Berlin
+2026-03-17 16:27:00,595 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059601)
+2026-03-17 16:27:01,098 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Hamburg
+2026-03-17 16:27:01,954 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059601)
+2026-03-17 16:27:02,458 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Nordrhein-Westfalen
+2026-03-17 16:27:03,320 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059599)
+2026-03-17 16:27:03,823 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Baden-Wuerttemberg
+2026-03-17 16:27:04,696 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059599)
+2026-03-17 16:27:05,198 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Bayern
+2026-03-17 16:27:06,029 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059601)
+2026-03-17 16:27:06,532 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Berlin
+2026-03-17 16:27:07,482 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059599)
+2026-03-17 16:27:07,986 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Hamburg
+2026-03-17 16:27:08,860 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059600)
+2026-03-17 16:27:09,363 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Nordrhein-Westfalen
+2026-03-17 16:27:10,417 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059601)
+2026-03-17 16:27:10,919 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Baden-Wuerttemberg
+2026-03-17 16:27:11,750 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059601)
+2026-03-17 16:27:12,252 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Bayern
+2026-03-17 16:27:13,110 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059603)
+2026-03-17 16:27:13,613 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Berlin
+2026-03-17 16:27:14,495 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059603)
+2026-03-17 16:27:14,998 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Hamburg
+2026-03-17 16:27:15,986 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059602)
+2026-03-17 16:27:16,488 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Nordrhein-Westfalen
+2026-03-17 16:27:17,321 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059602)
+2026-03-17 16:27:17,824 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Baden-Wuerttemberg
+2026-03-17 16:27:18,642 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059605)
+2026-03-17 16:27:19,145 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Bayern
+2026-03-17 16:27:20,048 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059605)
+2026-03-17 16:27:20,550 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Berlin
+2026-03-17 16:27:21,462 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059604)
+2026-03-17 16:27:21,966 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Hamburg
+2026-03-17 16:27:22,827 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059606)
+2026-03-17 16:27:23,330 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Nordrhein-Westfalen
+2026-03-17 16:27:24,192 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059606)
+2026-03-17 16:27:24,695 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Baden-Wuerttemberg
+2026-03-17 16:27:25,598 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059605)
+2026-03-17 16:27:26,100 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Bayern
+2026-03-17 16:27:27,044 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059603)
+2026-03-17 16:27:27,547 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Berlin
+2026-03-17 16:27:28,482 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059603)
+2026-03-17 16:27:28,985 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Hamburg
+2026-03-17 16:27:29,781 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059605)
+2026-03-17 16:27:30,284 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Nordrhein-Westfalen
+2026-03-17 16:27:31,134 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059605)
+2026-03-17 16:27:31,637 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Baden-Wuerttemberg
+2026-03-17 16:27:32,523 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059606)
+2026-03-17 16:27:33,026 [INFO] ingestion.bundesagentur - Fetch complete: 25/25 successful
+2026-03-17 16:27:33,026 [INFO] __main__ - Bundesagentur: 25/25 requests successful
+2026-03-17 16:27:33,026 [INFO] ingestion.eurostat - Fetching Eurostat dataset: isoc_sks_itsps
+2026-03-17 16:27:33,194 [INFO] ingestion.eurostat -   -> 161 rows fetched for 8 countries
+2026-03-17 16:27:34,194 [INFO] ingestion.eurostat - Fetching Eurostat dataset: htec_emp_nat2
+2026-03-17 16:27:34,534 [INFO] ingestion.eurostat -   -> 136 rows fetched for 8 countries
+2026-03-17 16:27:35,536 [INFO] ingestion.eurostat - Fetching Eurostat dataset: jvs_q_nace2
+2026-03-17 16:27:36,397 [INFO] ingestion.eurostat -   -> 419 rows fetched for 6 countries
+2026-03-17 16:27:37,404 [INFO] ingestion.eurostat - Eurostat fetch complete: 3/3 successful
+2026-03-17 16:27:37,405 [INFO] __main__ - Eurostat: 3/3 datasets successful
+2026-03-17 16:27:37,405 [INFO] __main__ - ============================================================
+2026-03-17 16:27:37,405 [INFO] __main__ -   Step 2/4 - Cleaning & Feature Engineering
+2026-03-17 16:27:37,405 [INFO] __main__ - ============================================================
+2026-03-17 16:28:07,553 [INFO] __main__ - ============================================================
+2026-03-17 16:28:07,553 [INFO] __main__ -   Step 1/4 - Data Ingestion
+2026-03-17 16:28:07,553 [INFO] __main__ - ============================================================
+2026-03-17 16:28:07,873 [INFO] ingestion.bundesagentur - Starting full fetch: 5 codes x 5 regions = 25 requests
+2026-03-17 16:28:07,874 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Bayern
+2026-03-17 16:28:08,806 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059615)
+2026-03-17 16:28:09,309 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Berlin
+2026-03-17 16:28:10,181 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059615)
+2026-03-17 16:28:10,684 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Hamburg
+2026-03-17 16:28:11,623 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059613)
+2026-03-17 16:28:12,126 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Nordrhein-Westfalen
+2026-03-17 16:28:12,945 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059615)
+2026-03-17 16:28:13,449 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Baden-Wuerttemberg
+2026-03-17 16:28:14,377 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059615)
+2026-03-17 16:28:14,881 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Bayern
+2026-03-17 16:28:15,822 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059613)
+2026-03-17 16:28:16,324 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Berlin
+2026-03-17 16:28:17,287 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059611)
+2026-03-17 16:28:17,790 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Hamburg
+2026-03-17 16:28:18,629 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059611)
+2026-03-17 16:28:19,132 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Nordrhein-Westfalen
+2026-03-17 16:28:19,965 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059613)
+2026-03-17 16:28:20,468 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Baden-Wuerttemberg
+2026-03-17 16:28:21,398 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059613)
+2026-03-17 16:28:21,901 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Bayern
+2026-03-17 16:28:22,823 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059611)
+2026-03-17 16:28:23,326 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Berlin
+2026-03-17 16:28:24,218 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059615)
+2026-03-17 16:28:24,720 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Hamburg
+2026-03-17 16:28:25,647 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059612)
+2026-03-17 16:28:26,149 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Nordrhein-Westfalen
+2026-03-17 16:28:26,986 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059614)
+2026-03-17 16:28:27,489 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Baden-Wuerttemberg
+2026-03-17 16:28:28,369 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059614)
+2026-03-17 16:28:28,871 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Bayern
+2026-03-17 16:28:29,997 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059614)
+2026-03-17 16:28:30,500 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Berlin
+2026-03-17 16:28:31,350 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059614)
+2026-03-17 16:28:31,854 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Hamburg
+2026-03-17 16:28:32,781 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059615)
+2026-03-17 16:28:33,285 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Nordrhein-Westfalen
+2026-03-17 16:28:34,191 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059615)
+2026-03-17 16:28:34,696 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Baden-Wuerttemberg
+2026-03-17 16:28:35,548 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059615)
+2026-03-17 16:28:36,052 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Bayern
+2026-03-17 16:28:36,891 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059615)
+2026-03-17 16:28:37,395 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Berlin
+2026-03-17 16:28:38,320 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059615)
+2026-03-17 16:28:38,824 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Hamburg
+2026-03-17 16:28:39,645 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059613)
+2026-03-17 16:28:40,149 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Nordrhein-Westfalen
+2026-03-17 16:28:40,989 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059615)
+2026-03-17 16:28:41,493 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Baden-Wuerttemberg
+2026-03-17 16:28:42,375 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059615)
+2026-03-17 16:28:42,879 [INFO] ingestion.bundesagentur - Fetch complete: 25/25 successful
+2026-03-17 16:28:42,879 [INFO] __main__ - Bundesagentur: 25/25 requests successful
+2026-03-17 16:28:42,879 [INFO] ingestion.eurostat - Fetching Eurostat dataset: isoc_sks_itsps
+2026-03-17 16:28:43,046 [INFO] ingestion.eurostat -   -> 161 rows fetched for 8 countries
+2026-03-17 16:28:44,047 [INFO] ingestion.eurostat - Fetching Eurostat dataset: htec_emp_nat2
+2026-03-17 16:28:44,329 [INFO] ingestion.eurostat -   -> 136 rows fetched for 8 countries
+2026-03-17 16:28:45,330 [INFO] ingestion.eurostat - Fetching Eurostat dataset: jvs_q_nace2
+2026-03-17 16:28:46,159 [INFO] ingestion.eurostat -   -> 419 rows fetched for 6 countries
+2026-03-17 16:28:47,166 [INFO] ingestion.eurostat - Eurostat fetch complete: 3/3 successful
+2026-03-17 16:28:47,166 [INFO] __main__ - Eurostat: 3/3 datasets successful
+2026-03-17 16:28:47,167 [INFO] __main__ - ============================================================
+2026-03-17 16:28:47,167 [INFO] __main__ -   Step 2/4 - Cleaning & Feature Engineering
+2026-03-17 16:28:47,167 [INFO] __main__ - ============================================================
+2026-03-17 16:32:59,353 [INFO] __main__ - ============================================================
+2026-03-17 16:32:59,353 [INFO] __main__ -   Step 1/4 - Data Ingestion
+2026-03-17 16:32:59,353 [INFO] __main__ - ============================================================
+2026-03-17 16:32:59,678 [INFO] ingestion.bundesagentur - Starting full fetch: 5 codes x 5 regions = 25 requests
+2026-03-17 16:32:59,678 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Bayern
+2026-03-17 16:33:00,625 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059616)
+2026-03-17 16:33:01,127 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Berlin
+2026-03-17 16:33:02,046 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059619)
+2026-03-17 16:33:02,548 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Hamburg
+2026-03-17 16:33:03,382 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059619)
+2026-03-17 16:33:03,885 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Nordrhein-Westfalen
+2026-03-17 16:33:04,793 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059616)
+2026-03-17 16:33:05,297 [INFO] ingestion.bundesagentur - Fetching: occupation=43444 region=Baden-Wuerttemberg
+2026-03-17 16:33:06,169 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059616)
+2026-03-17 16:33:06,671 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Bayern
+2026-03-17 16:33:07,526 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059616)
+2026-03-17 16:33:08,030 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Berlin
+2026-03-17 16:33:08,952 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059616)
+2026-03-17 16:33:09,456 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Hamburg
+2026-03-17 16:33:10,409 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059616)
+2026-03-17 16:33:10,913 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Nordrhein-Westfalen
+2026-03-17 16:33:11,751 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059618)
+2026-03-17 16:33:12,256 [INFO] ingestion.bundesagentur - Fetching: occupation=43414 region=Baden-Wuerttemberg
+2026-03-17 16:33:13,141 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059614)
+2026-03-17 16:33:13,643 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Bayern
+2026-03-17 16:33:14,625 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059617)
+2026-03-17 16:33:15,128 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Berlin
+2026-03-17 16:33:15,996 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059615)
+2026-03-17 16:33:16,500 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Hamburg
+2026-03-17 16:33:17,321 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059615)
+2026-03-17 16:33:17,824 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Nordrhein-Westfalen
+2026-03-17 16:33:18,720 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059617)
+2026-03-17 16:33:19,224 [INFO] ingestion.bundesagentur - Fetching: occupation=43434 region=Baden-Wuerttemberg
+2026-03-17 16:33:20,124 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059617)
+2026-03-17 16:33:20,626 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Bayern
+2026-03-17 16:33:21,437 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059616)
+2026-03-17 16:33:21,941 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Berlin
+2026-03-17 16:33:22,794 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059613)
+2026-03-17 16:33:23,297 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Hamburg
+2026-03-17 16:33:24,224 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059615)
+2026-03-17 16:33:24,726 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Nordrhein-Westfalen
+2026-03-17 16:33:25,666 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059615)
+2026-03-17 16:33:26,168 [INFO] ingestion.bundesagentur - Fetching: occupation=43424 region=Baden-Wuerttemberg
+2026-03-17 16:33:27,081 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059613)
+2026-03-17 16:33:27,584 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Bayern
+2026-03-17 16:33:28,440 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059612)
+2026-03-17 16:33:28,943 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Berlin
+2026-03-17 16:33:29,882 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059617)
+2026-03-17 16:33:30,385 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Hamburg
+2026-03-17 16:33:31,254 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059617)
+2026-03-17 16:33:31,757 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Nordrhein-Westfalen
+2026-03-17 16:33:32,704 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059618)
+2026-03-17 16:33:33,206 [INFO] ingestion.bundesagentur - Fetching: occupation=43494 region=Baden-Wuerttemberg
+2026-03-17 16:33:34,104 [INFO] ingestion.bundesagentur -   -> 100 jobs fetched (total available: 1059619)
+2026-03-17 16:33:34,607 [INFO] ingestion.bundesagentur - Fetch complete: 25/25 successful
+2026-03-17 16:33:34,607 [INFO] __main__ - Bundesagentur: 25/25 requests successful
+2026-03-17 16:33:34,607 [INFO] ingestion.eurostat - Fetching Eurostat dataset: isoc_sks_itsps
+2026-03-17 16:33:34,775 [INFO] ingestion.eurostat -   -> 161 rows fetched for 8 countries
+2026-03-17 16:33:35,776 [INFO] ingestion.eurostat - Fetching Eurostat dataset: htec_emp_nat2
+2026-03-17 16:33:36,068 [INFO] ingestion.eurostat -   -> 136 rows fetched for 8 countries
+2026-03-17 16:33:37,070 [INFO] ingestion.eurostat - Fetching Eurostat dataset: jvs_q_nace2
+2026-03-17 16:33:38,009 [INFO] ingestion.eurostat -   -> 419 rows fetched for 6 countries
+2026-03-17 16:33:39,019 [INFO] ingestion.eurostat - Eurostat fetch complete: 3/3 successful
+2026-03-17 16:33:39,019 [INFO] __main__ - Eurostat: 3/3 datasets successful
+2026-03-17 16:33:39,019 [INFO] __main__ - ============================================================
+2026-03-17 16:33:39,019 [INFO] __main__ -   Step 2/4 - Cleaning & Feature Engineering
+2026-03-17 16:33:39,019 [INFO] __main__ - ============================================================
+2026-03-17 16:33:39,058 [INFO] pipeline.cleaner - Bundesagentur cleaned: 508 jobs -> data/processed/bundesagentur_clean.csv
+2026-03-17 16:33:39,063 [INFO] pipeline.cleaner - Eurostat isoc_sks_itsps cleaned: 161 rows -> data/processed/eurostat_isoc_sks_itsps_clean.csv
+2026-03-17 16:33:39,077 [INFO] pipeline.cleaner - Eurostat htec_emp_nat2 cleaned: 136 rows -> data/processed/eurostat_htec_emp_nat2_clean.csv
+2026-03-17 16:33:39,171 [INFO] pipeline.cleaner - Eurostat jvs_q_nace2 cleaned: 419 rows -> data/processed/eurostat_jvs_q_nace2_clean.csv
+2026-03-17 16:33:39,199 [INFO] pipeline.features - Job features built: 71 rows -> data/processed/job_features.csv
+2026-03-17 16:33:39,211 [INFO] pipeline.features - Country comparison built: 22 countries -> data/processed/country_comparison.csv
+2026-03-17 16:33:39,221 [INFO] pipeline.features - Time series built: 716 rows -> data/processed/timeseries.csv
+2026-03-17 16:33:39,221 [INFO] __main__ - ============================================================
+2026-03-17 16:33:39,221 [INFO] __main__ -   Step 3/4 - Forecasting
+2026-03-17 16:33:39,221 [INFO] __main__ - ============================================================
+2026-03-17 16:33:40,385 [INFO] model.forecaster - Forecast DE/htec_emp_nat2: R2=-3.655 MAE=1475.4 forecast_end=2029
+2026-03-17 16:33:40,392 [INFO] model.forecaster - Forecast DE/isoc_sks_itsps: R2=-4.384 MAE=190.0 forecast_end=2029
+2026-03-17 16:33:40,399 [INFO] model.forecaster - Forecast DE/jvs_q_nace2: R2=-2.751 MAE=456143.6 forecast_end=2030
+2026-03-17 16:33:40,404 [INFO] model.forecaster - Forecast EE/htec_emp_nat2: R2=-0.171 MAE=19.3 forecast_end=2029
+2026-03-17 16:33:40,408 [INFO] model.forecaster - Forecast EE/isoc_sks_itsps: R2=-4.135 MAE=4.4 forecast_end=2029
+2026-03-17 16:33:40,414 [INFO] model.forecaster - Forecast EE/jvs_q_nace2: R2=-10.838 MAE=4217.8 forecast_end=2030
+2026-03-17 16:33:40,418 [INFO] model.forecaster - Forecast EU27_2020/htec_emp_nat2: R2=-5.285 MAE=8487.6 forecast_end=2029
+2026-03-17 16:33:40,425 [INFO] model.forecaster - Forecast EU27_2020/isoc_sks_itsps: R2=-0.111 MAE=497.3 forecast_end=2029
+2026-03-17 16:33:40,431 [INFO] model.forecaster - Forecast IE/htec_emp_nat2: R2=-0.453 MAE=133.9 forecast_end=2029
+2026-03-17 16:33:40,435 [INFO] model.forecaster - Forecast IE/isoc_sks_itsps: R2=-2.729 MAE=18.3 forecast_end=2029
+2026-03-17 16:33:40,440 [INFO] model.forecaster - Forecast NL/htec_emp_nat2: R2=0.739 MAE=75.8 forecast_end=2029
+2026-03-17 16:33:40,445 [INFO] model.forecaster - Forecast NL/isoc_sks_itsps: R2=-0.151 MAE=42.3 forecast_end=2029
+2026-03-17 16:33:40,452 [INFO] model.forecaster - Forecast NL/jvs_q_nace2: R2=-2.100 MAE=97404.8 forecast_end=2030
+2026-03-17 16:33:40,458 [INFO] model.forecaster - Forecast NO/htec_emp_nat2: R2=-4.006 MAE=96.3 forecast_end=2029
+2026-03-17 16:33:40,463 [INFO] model.forecaster - Forecast NO/isoc_sks_itsps: R2=-7.494 MAE=8.7 forecast_end=2029
+2026-03-17 16:33:40,468 [INFO] model.forecaster - Forecast NO/jvs_q_nace2: R2=-2.225 MAE=26432.0 forecast_end=2030
+2026-03-17 16:33:40,472 [INFO] model.forecaster - Forecast PL/htec_emp_nat2: R2=-324.121 MAE=797.5 forecast_end=2029
+2026-03-17 16:33:40,477 [INFO] model.forecaster - Forecast PL/isoc_sks_itsps: R2=-2.507 MAE=87.8 forecast_end=2029
+2026-03-17 16:33:40,482 [INFO] model.forecaster - Forecast PL/jvs_q_nace2: R2=-32.191 MAE=62969.1 forecast_end=2030
+2026-03-17 16:33:40,487 [INFO] model.forecaster - Forecast PT/htec_emp_nat2: R2=-17.556 MAE=512.3 forecast_end=2029
+2026-03-17 16:33:40,491 [INFO] model.forecaster - Forecast PT/isoc_sks_itsps: R2=-0.031 MAE=16.5 forecast_end=2029
+2026-03-17 16:33:40,497 [INFO] model.forecaster - Forecast PT/jvs_q_nace2: R2=-3.354 MAE=5825.6 forecast_end=2030
+2026-03-17 16:33:40,503 [INFO] model.forecaster - All forecasts saved: data/models/forecasts.csv
+2026-03-17 16:33:40,504 [INFO] model.forecaster - Model metrics saved: data/models/model_metrics.csv
+2026-03-17 16:33:40,504 [INFO] model.forecaster - Forecasting complete: 22/22 successful
+2026-03-17 16:33:40,505 [INFO] __main__ - Forecasts: 22/22 successful
+2026-03-17 16:33:40,509 [INFO] __main__ - ============================================================
+2026-03-17 16:33:40,509 [INFO] __main__ -   Step 4/4 - Dashboard & Report
+2026-03-17 16:33:40,509 [INFO] __main__ - ============================================================
+2026-03-17 16:33:40,961 [ERROR] dashboard.visualizer - Plot failed (plot_job_distribution): 'job_id'
+2026-03-17 16:33:41,323 [INFO] dashboard.visualizer - Plot saved: docs/plots/02_country_comparison.png
+2026-03-17 16:33:41,659 [INFO] dashboard.visualizer - Plot saved: docs/plots/03_timeseries.png
+2026-03-17 16:33:41,998 [INFO] dashboard.visualizer - Plot saved: docs/plots/04_forecast.png
+2026-03-17 16:33:41,998 [INFO] dashboard.visualizer - 3 plots generated
+2026-03-17 16:33:41,999 [INFO] __main__ - 3 plots generated
+2026-03-17 16:33:42,011 [INFO] dashboard.report - HTML report saved: docs/reports/report_20260317_163342.html
+2026-03-17 16:33:42,011 [INFO] __main__ - Report: docs/reports/report_20260317_163342.html
+2026-03-17 16:33:42,011 [INFO] __main__ - ============================================================
+2026-03-17 16:33:42,011 [INFO] __main__ -   Pipeline complete
+2026-03-17 16:33:42,011 [INFO] __main__ - ============================================================
+2026-03-17 16:33:42,011 [INFO] __main__ - Plots   : docs/plots
+2026-03-17 16:33:42,011 [INFO] __main__ - Reports : docs/reports
+2026-03-17 16:33:42,011 [INFO] __main__ - Log     : pipeline.log
+2026-03-17 20:00:52,932 [INFO] __main__ - ============================================================
+2026-03-17 20:00:52,932 [INFO] __main__ -   Step 1/4 - Data Ingestion
+2026-03-17 20:00:52,932 [INFO] __main__ - ============================================================
+2026-03-17 20:00:52,932 [INFO] __main__ - Skipping fetch - using existing raw data
+2026-03-17 20:00:52,932 [INFO] __main__ - ============================================================
+2026-03-17 20:00:52,932 [INFO] __main__ -   Step 2/4 - Cleaning & Feature Engineering
+2026-03-17 20:00:52,932 [INFO] __main__ - ============================================================
+2026-03-17 20:00:53,215 [INFO] pipeline.cleaner - Bundesagentur cleaned: 508 jobs -> data/processed/bundesagentur_clean.csv
+2026-03-17 20:00:53,220 [INFO] pipeline.cleaner - Eurostat isoc_sks_itsps cleaned: 161 rows -> data/processed/eurostat_isoc_sks_itsps_clean.csv
+2026-03-17 20:00:53,235 [INFO] pipeline.cleaner - Eurostat htec_emp_nat2 cleaned: 136 rows -> data/processed/eurostat_htec_emp_nat2_clean.csv
+2026-03-17 20:00:53,320 [INFO] pipeline.cleaner - Eurostat jvs_q_nace2 cleaned: 419 rows -> data/processed/eurostat_jvs_q_nace2_clean.csv
+2026-03-17 20:00:53,335 [INFO] pipeline.features - Job features built: 71 rows -> data/processed/job_features.csv
+2026-03-17 20:00:53,343 [INFO] pipeline.features - Country comparison built: 22 countries -> data/processed/country_comparison.csv
+2026-03-17 20:00:53,351 [INFO] pipeline.features - Time series built: 716 rows -> data/processed/timeseries.csv
+2026-03-17 20:00:53,352 [INFO] __main__ - ============================================================
+2026-03-17 20:00:53,352 [INFO] __main__ -   Step 3/4 - Forecasting
+2026-03-17 20:00:53,352 [INFO] __main__ - ============================================================
+2026-03-17 20:00:54,129 [INFO] model.forecaster - Forecast DE/htec_emp_nat2: R2=-3.655 MAE=1475.4 forecast_end=2029
+2026-03-17 20:00:54,133 [INFO] model.forecaster - Forecast DE/isoc_sks_itsps: R2=-4.384 MAE=190.0 forecast_end=2029
+2026-03-17 20:00:54,138 [INFO] model.forecaster - Forecast DE/jvs_q_nace2: R2=-2.751 MAE=456143.6 forecast_end=2030
+2026-03-17 20:00:54,143 [INFO] model.forecaster - Forecast EE/htec_emp_nat2: R2=-0.171 MAE=19.3 forecast_end=2029
+2026-03-17 20:00:54,147 [INFO] model.forecaster - Forecast EE/isoc_sks_itsps: R2=-4.135 MAE=4.4 forecast_end=2029
+2026-03-17 20:00:54,151 [INFO] model.forecaster - Forecast EE/jvs_q_nace2: R2=-10.838 MAE=4217.8 forecast_end=2030
+2026-03-17 20:00:54,155 [INFO] model.forecaster - Forecast EU27_2020/htec_emp_nat2: R2=-5.285 MAE=8487.6 forecast_end=2029
+2026-03-17 20:00:54,160 [INFO] model.forecaster - Forecast EU27_2020/isoc_sks_itsps: R2=-0.111 MAE=497.3 forecast_end=2029
+2026-03-17 20:00:54,164 [INFO] model.forecaster - Forecast IE/htec_emp_nat2: R2=-0.453 MAE=133.9 forecast_end=2029
+2026-03-17 20:00:54,168 [INFO] model.forecaster - Forecast IE/isoc_sks_itsps: R2=-2.729 MAE=18.3 forecast_end=2029
+2026-03-17 20:00:54,172 [INFO] model.forecaster - Forecast NL/htec_emp_nat2: R2=0.739 MAE=75.8 forecast_end=2029
+2026-03-17 20:00:54,177 [INFO] model.forecaster - Forecast NL/isoc_sks_itsps: R2=-0.151 MAE=42.3 forecast_end=2029
+2026-03-17 20:00:54,181 [INFO] model.forecaster - Forecast NL/jvs_q_nace2: R2=-2.100 MAE=97404.8 forecast_end=2030
+2026-03-17 20:00:54,185 [INFO] model.forecaster - Forecast NO/htec_emp_nat2: R2=-4.006 MAE=96.3 forecast_end=2029
+2026-03-17 20:00:54,189 [INFO] model.forecaster - Forecast NO/isoc_sks_itsps: R2=-7.494 MAE=8.7 forecast_end=2029
+2026-03-17 20:00:54,194 [INFO] model.forecaster - Forecast NO/jvs_q_nace2: R2=-2.225 MAE=26432.0 forecast_end=2030
+2026-03-17 20:00:54,198 [INFO] model.forecaster - Forecast PL/htec_emp_nat2: R2=-324.121 MAE=797.5 forecast_end=2029
+2026-03-17 20:00:54,202 [INFO] model.forecaster - Forecast PL/isoc_sks_itsps: R2=-2.507 MAE=87.8 forecast_end=2029
+2026-03-17 20:00:54,207 [INFO] model.forecaster - Forecast PL/jvs_q_nace2: R2=-32.191 MAE=62969.1 forecast_end=2030
+2026-03-17 20:00:54,211 [INFO] model.forecaster - Forecast PT/htec_emp_nat2: R2=-17.556 MAE=512.3 forecast_end=2029
+2026-03-17 20:00:54,215 [INFO] model.forecaster - Forecast PT/isoc_sks_itsps: R2=-0.031 MAE=16.5 forecast_end=2029
+2026-03-17 20:00:54,219 [INFO] model.forecaster - Forecast PT/jvs_q_nace2: R2=-3.354 MAE=5825.6 forecast_end=2030
+2026-03-17 20:00:54,225 [INFO] model.forecaster - All forecasts saved: data/models/forecasts.csv
+2026-03-17 20:00:54,226 [INFO] model.forecaster - Model metrics saved: data/models/model_metrics.csv
+2026-03-17 20:00:54,227 [INFO] model.forecaster - Forecasting complete: 22/22 successful
+2026-03-17 20:00:54,227 [INFO] __main__ - Forecasts: 22/22 successful
+2026-03-17 20:00:54,228 [INFO] __main__ - ============================================================
+2026-03-17 20:00:54,229 [INFO] __main__ -   Step 4/4 - Dashboard & Report
+2026-03-17 20:00:54,229 [INFO] __main__ - ============================================================
+2026-03-17 20:00:54,564 [ERROR] dashboard.visualizer - Plot failed (plot_job_distribution): 'refnr'
+2026-03-17 20:00:54,861 [INFO] dashboard.visualizer - Plot saved: docs/plots/02_country_comparison.png
+2026-03-17 20:00:55,150 [INFO] dashboard.visualizer - Plot saved: docs/plots/03_timeseries.png
+2026-03-17 20:00:55,444 [INFO] dashboard.visualizer - Plot saved: docs/plots/04_forecast.png
+2026-03-17 20:00:55,444 [INFO] dashboard.visualizer - 3 plots generated
+2026-03-17 20:00:55,444 [INFO] __main__ - 3 plots generated
+2026-03-17 20:00:55,456 [INFO] dashboard.report - HTML report saved: docs/reports/report_20260317_200055.html
+2026-03-17 20:00:55,456 [INFO] __main__ - Report: docs/reports/report_20260317_200055.html
+2026-03-17 20:00:55,456 [INFO] __main__ - ============================================================
+2026-03-17 20:00:55,456 [INFO] __main__ -   Pipeline complete
+2026-03-17 20:00:55,456 [INFO] __main__ - ============================================================
+2026-03-17 20:00:55,456 [INFO] __main__ - Plots   : docs/plots
+2026-03-17 20:00:55,456 [INFO] __main__ - Reports : docs/reports
+2026-03-17 20:00:55,456 [INFO] __main__ - Log     : pipeline.log
+2026-03-17 20:01:51,357 [INFO] __main__ - ============================================================
+2026-03-17 20:01:51,358 [INFO] __main__ -   Step 1/4 - Data Ingestion
+2026-03-17 20:01:51,358 [INFO] __main__ - ============================================================
+2026-03-17 20:01:51,358 [INFO] __main__ - Skipping fetch - using existing raw data
+2026-03-17 20:01:51,358 [INFO] __main__ - ============================================================
+2026-03-17 20:01:51,358 [INFO] __main__ -   Step 2/4 - Cleaning & Feature Engineering
+2026-03-17 20:01:51,358 [INFO] __main__ - ============================================================
+2026-03-17 20:01:51,649 [INFO] pipeline.cleaner - Bundesagentur cleaned: 508 jobs -> data/processed/bundesagentur_clean.csv
+2026-03-17 20:01:51,654 [INFO] pipeline.cleaner - Eurostat isoc_sks_itsps cleaned: 161 rows -> data/processed/eurostat_isoc_sks_itsps_clean.csv
+2026-03-17 20:01:51,669 [INFO] pipeline.cleaner - Eurostat htec_emp_nat2 cleaned: 136 rows -> data/processed/eurostat_htec_emp_nat2_clean.csv
+2026-03-17 20:01:51,752 [INFO] pipeline.cleaner - Eurostat jvs_q_nace2 cleaned: 419 rows -> data/processed/eurostat_jvs_q_nace2_clean.csv
+2026-03-17 20:01:51,767 [INFO] pipeline.features - Job features built: 71 rows -> data/processed/job_features.csv
+2026-03-17 20:01:51,776 [INFO] pipeline.features - Country comparison built: 22 countries -> data/processed/country_comparison.csv
+2026-03-17 20:01:51,784 [INFO] pipeline.features - Time series built: 716 rows -> data/processed/timeseries.csv
+2026-03-17 20:01:51,784 [INFO] __main__ - ============================================================
+2026-03-17 20:01:51,784 [INFO] __main__ -   Step 3/4 - Forecasting
+2026-03-17 20:01:51,784 [INFO] __main__ - ============================================================
+2026-03-17 20:01:52,589 [INFO] model.forecaster - Forecast DE/htec_emp_nat2: R2=-3.655 MAE=1475.4 forecast_end=2029
+2026-03-17 20:01:52,593 [INFO] model.forecaster - Forecast DE/isoc_sks_itsps: R2=-4.384 MAE=190.0 forecast_end=2029
+2026-03-17 20:01:52,597 [INFO] model.forecaster - Forecast DE/jvs_q_nace2: R2=-2.751 MAE=456143.6 forecast_end=2030
+2026-03-17 20:01:52,601 [INFO] model.forecaster - Forecast EE/htec_emp_nat2: R2=-0.171 MAE=19.3 forecast_end=2029
+2026-03-17 20:01:52,605 [INFO] model.forecaster - Forecast EE/isoc_sks_itsps: R2=-4.135 MAE=4.4 forecast_end=2029
+2026-03-17 20:01:52,609 [INFO] model.forecaster - Forecast EE/jvs_q_nace2: R2=-10.838 MAE=4217.8 forecast_end=2030
+2026-03-17 20:01:52,613 [INFO] model.forecaster - Forecast EU27_2020/htec_emp_nat2: R2=-5.285 MAE=8487.6 forecast_end=2029
+2026-03-17 20:01:52,617 [INFO] model.forecaster - Forecast EU27_2020/isoc_sks_itsps: R2=-0.111 MAE=497.3 forecast_end=2029
+2026-03-17 20:01:52,621 [INFO] model.forecaster - Forecast IE/htec_emp_nat2: R2=-0.453 MAE=133.9 forecast_end=2029
+2026-03-17 20:01:52,625 [INFO] model.forecaster - Forecast IE/isoc_sks_itsps: R2=-2.729 MAE=18.3 forecast_end=2029
+2026-03-17 20:01:52,629 [INFO] model.forecaster - Forecast NL/htec_emp_nat2: R2=0.739 MAE=75.8 forecast_end=2029
+2026-03-17 20:01:52,633 [INFO] model.forecaster - Forecast NL/isoc_sks_itsps: R2=-0.151 MAE=42.3 forecast_end=2029
+2026-03-17 20:01:52,638 [INFO] model.forecaster - Forecast NL/jvs_q_nace2: R2=-2.100 MAE=97404.8 forecast_end=2030
+2026-03-17 20:01:52,642 [INFO] model.forecaster - Forecast NO/htec_emp_nat2: R2=-4.006 MAE=96.3 forecast_end=2029
+2026-03-17 20:01:52,646 [INFO] model.forecaster - Forecast NO/isoc_sks_itsps: R2=-7.494 MAE=8.7 forecast_end=2029
+2026-03-17 20:01:52,650 [INFO] model.forecaster - Forecast NO/jvs_q_nace2: R2=-2.225 MAE=26432.0 forecast_end=2030
+2026-03-17 20:01:52,655 [INFO] model.forecaster - Forecast PL/htec_emp_nat2: R2=-324.121 MAE=797.5 forecast_end=2029
+2026-03-17 20:01:52,659 [INFO] model.forecaster - Forecast PL/isoc_sks_itsps: R2=-2.507 MAE=87.8 forecast_end=2029
+2026-03-17 20:01:52,663 [INFO] model.forecaster - Forecast PL/jvs_q_nace2: R2=-32.191 MAE=62969.1 forecast_end=2030
+2026-03-17 20:01:52,667 [INFO] model.forecaster - Forecast PT/htec_emp_nat2: R2=-17.556 MAE=512.3 forecast_end=2029
+2026-03-17 20:01:52,671 [INFO] model.forecaster - Forecast PT/isoc_sks_itsps: R2=-0.031 MAE=16.5 forecast_end=2029
+2026-03-17 20:01:52,675 [INFO] model.forecaster - Forecast PT/jvs_q_nace2: R2=-3.354 MAE=5825.6 forecast_end=2030
+2026-03-17 20:01:52,680 [INFO] model.forecaster - All forecasts saved: data/models/forecasts.csv
+2026-03-17 20:01:52,682 [INFO] model.forecaster - Model metrics saved: data/models/model_metrics.csv
+2026-03-17 20:01:52,682 [INFO] model.forecaster - Forecasting complete: 22/22 successful
+2026-03-17 20:01:52,682 [INFO] __main__ - Forecasts: 22/22 successful
+2026-03-17 20:01:52,684 [INFO] __main__ - ============================================================
+2026-03-17 20:01:52,684 [INFO] __main__ -   Step 4/4 - Dashboard & Report
+2026-03-17 20:01:52,684 [INFO] __main__ - ============================================================
+2026-03-17 20:01:53,013 [ERROR] dashboard.visualizer - Plot failed (plot_job_distribution): 'title'
+2026-03-17 20:01:53,317 [INFO] dashboard.visualizer - Plot saved: docs/plots/02_country_comparison.png
+2026-03-17 20:01:53,602 [INFO] dashboard.visualizer - Plot saved: docs/plots/03_timeseries.png
+2026-03-17 20:01:53,885 [INFO] dashboard.visualizer - Plot saved: docs/plots/04_forecast.png
+2026-03-17 20:01:53,885 [INFO] dashboard.visualizer - 3 plots generated
+2026-03-17 20:01:53,885 [INFO] __main__ - 3 plots generated
+2026-03-17 20:01:53,894 [INFO] dashboard.report - HTML report saved: docs/reports/report_20260317_200153.html
+2026-03-17 20:01:53,895 [INFO] __main__ - Report: docs/reports/report_20260317_200153.html
+2026-03-17 20:01:53,895 [INFO] __main__ - ============================================================
+2026-03-17 20:01:53,895 [INFO] __main__ -   Pipeline complete
+2026-03-17 20:01:53,895 [INFO] __main__ - ============================================================
+2026-03-17 20:01:53,895 [INFO] __main__ - Plots   : docs/plots
+2026-03-17 20:01:53,895 [INFO] __main__ - Reports : docs/reports
+2026-03-17 20:01:53,895 [INFO] __main__ - Log     : pipeline.log
+2026-03-17 20:02:36,943 [INFO] __main__ - ============================================================
+2026-03-17 20:02:36,943 [INFO] __main__ -   Step 1/4 - Data Ingestion
+2026-03-17 20:02:36,943 [INFO] __main__ - ============================================================
+2026-03-17 20:02:36,943 [INFO] __main__ - Skipping fetch - using existing raw data
+2026-03-17 20:02:36,943 [INFO] __main__ - ============================================================
+2026-03-17 20:02:36,943 [INFO] __main__ -   Step 2/4 - Cleaning & Feature Engineering
+2026-03-17 20:02:36,943 [INFO] __main__ - ============================================================
+2026-03-17 20:02:37,241 [INFO] pipeline.cleaner - Bundesagentur cleaned: 508 jobs -> data/processed/bundesagentur_clean.csv
+2026-03-17 20:02:37,246 [INFO] pipeline.cleaner - Eurostat isoc_sks_itsps cleaned: 161 rows -> data/processed/eurostat_isoc_sks_itsps_clean.csv
+2026-03-17 20:02:37,261 [INFO] pipeline.cleaner - Eurostat htec_emp_nat2 cleaned: 136 rows -> data/processed/eurostat_htec_emp_nat2_clean.csv
+2026-03-17 20:02:37,348 [INFO] pipeline.cleaner - Eurostat jvs_q_nace2 cleaned: 419 rows -> data/processed/eurostat_jvs_q_nace2_clean.csv
+2026-03-17 20:02:37,362 [INFO] pipeline.features - Job features built: 71 rows -> data/processed/job_features.csv
+2026-03-17 20:02:37,371 [INFO] pipeline.features - Country comparison built: 22 countries -> data/processed/country_comparison.csv
+2026-03-17 20:02:37,380 [INFO] pipeline.features - Time series built: 716 rows -> data/processed/timeseries.csv
+2026-03-17 20:02:37,380 [INFO] __main__ - ============================================================
+2026-03-17 20:02:37,380 [INFO] __main__ -   Step 3/4 - Forecasting
+2026-03-17 20:02:37,380 [INFO] __main__ - ============================================================
+2026-03-17 20:02:38,171 [INFO] model.forecaster - Forecast DE/htec_emp_nat2: R2=-3.655 MAE=1475.4 forecast_end=2029
+2026-03-17 20:02:38,177 [INFO] model.forecaster - Forecast DE/isoc_sks_itsps: R2=-4.384 MAE=190.0 forecast_end=2029
+2026-03-17 20:02:38,183 [INFO] model.forecaster - Forecast DE/jvs_q_nace2: R2=-2.751 MAE=456143.6 forecast_end=2030
+2026-03-17 20:02:38,190 [INFO] model.forecaster - Forecast EE/htec_emp_nat2: R2=-0.171 MAE=19.3 forecast_end=2029
+2026-03-17 20:02:38,197 [INFO] model.forecaster - Forecast EE/isoc_sks_itsps: R2=-4.135 MAE=4.4 forecast_end=2029
+2026-03-17 20:02:38,201 [INFO] model.forecaster - Forecast EE/jvs_q_nace2: R2=-10.838 MAE=4217.8 forecast_end=2030
+2026-03-17 20:02:38,205 [INFO] model.forecaster - Forecast EU27_2020/htec_emp_nat2: R2=-5.285 MAE=8487.6 forecast_end=2029
+2026-03-17 20:02:38,209 [INFO] model.forecaster - Forecast EU27_2020/isoc_sks_itsps: R2=-0.111 MAE=497.3 forecast_end=2029
+2026-03-17 20:02:38,213 [INFO] model.forecaster - Forecast IE/htec_emp_nat2: R2=-0.453 MAE=133.9 forecast_end=2029
+2026-03-17 20:02:38,217 [INFO] model.forecaster - Forecast IE/isoc_sks_itsps: R2=-2.729 MAE=18.3 forecast_end=2029
+2026-03-17 20:02:38,221 [INFO] model.forecaster - Forecast NL/htec_emp_nat2: R2=0.739 MAE=75.8 forecast_end=2029
+2026-03-17 20:02:38,225 [INFO] model.forecaster - Forecast NL/isoc_sks_itsps: R2=-0.151 MAE=42.3 forecast_end=2029
+2026-03-17 20:02:38,229 [INFO] model.forecaster - Forecast NL/jvs_q_nace2: R2=-2.100 MAE=97404.8 forecast_end=2030
+2026-03-17 20:02:38,233 [INFO] model.forecaster - Forecast NO/htec_emp_nat2: R2=-4.006 MAE=96.3 forecast_end=2029
+2026-03-17 20:02:38,237 [INFO] model.forecaster - Forecast NO/isoc_sks_itsps: R2=-7.494 MAE=8.7 forecast_end=2029
+2026-03-17 20:02:38,241 [INFO] model.forecaster - Forecast NO/jvs_q_nace2: R2=-2.225 MAE=26432.0 forecast_end=2030
+2026-03-17 20:02:38,245 [INFO] model.forecaster - Forecast PL/htec_emp_nat2: R2=-324.121 MAE=797.5 forecast_end=2029
+2026-03-17 20:02:38,249 [INFO] model.forecaster - Forecast PL/isoc_sks_itsps: R2=-2.507 MAE=87.8 forecast_end=2029
+2026-03-17 20:02:38,253 [INFO] model.forecaster - Forecast PL/jvs_q_nace2: R2=-32.191 MAE=62969.1 forecast_end=2030
+2026-03-17 20:02:38,256 [INFO] model.forecaster - Forecast PT/htec_emp_nat2: R2=-17.556 MAE=512.3 forecast_end=2029
+2026-03-17 20:02:38,260 [INFO] model.forecaster - Forecast PT/isoc_sks_itsps: R2=-0.031 MAE=16.5 forecast_end=2029
+2026-03-17 20:02:38,264 [INFO] model.forecaster - Forecast PT/jvs_q_nace2: R2=-3.354 MAE=5825.6 forecast_end=2030
+2026-03-17 20:02:38,270 [INFO] model.forecaster - All forecasts saved: data/models/forecasts.csv
+2026-03-17 20:02:38,271 [INFO] model.forecaster - Model metrics saved: data/models/model_metrics.csv
+2026-03-17 20:02:38,271 [INFO] model.forecaster - Forecasting complete: 22/22 successful
+2026-03-17 20:02:38,271 [INFO] __main__ - Forecasts: 22/22 successful
+2026-03-17 20:02:38,273 [INFO] __main__ - ============================================================
+2026-03-17 20:02:38,273 [INFO] __main__ -   Step 4/4 - Dashboard & Report
+2026-03-17 20:02:38,273 [INFO] __main__ - ============================================================
+2026-03-17 20:02:38,601 [ERROR] dashboard.visualizer - Plot failed (plot_job_distribution): 'occupation_code'
+2026-03-17 20:02:38,895 [INFO] dashboard.visualizer - Plot saved: docs/plots/02_country_comparison.png
+2026-03-17 20:02:39,174 [INFO] dashboard.visualizer - Plot saved: docs/plots/03_timeseries.png
+2026-03-17 20:02:39,468 [INFO] dashboard.visualizer - Plot saved: docs/plots/04_forecast.png
+2026-03-17 20:02:39,468 [INFO] dashboard.visualizer - 3 plots generated
+2026-03-17 20:02:39,468 [INFO] __main__ - 3 plots generated
+2026-03-17 20:02:39,478 [INFO] dashboard.report - HTML report saved: docs/reports/report_20260317_200239.html
+2026-03-17 20:02:39,478 [INFO] __main__ - Report: docs/reports/report_20260317_200239.html
+2026-03-17 20:02:39,479 [INFO] __main__ - ============================================================
+2026-03-17 20:02:39,479 [INFO] __main__ -   Pipeline complete
+2026-03-17 20:02:39,479 [INFO] __main__ - ============================================================
+2026-03-17 20:02:39,479 [INFO] __main__ - Plots   : docs/plots
+2026-03-17 20:02:39,479 [INFO] __main__ - Reports : docs/reports
+2026-03-17 20:02:39,479 [INFO] __main__ - Log     : pipeline.log
+2026-03-17 20:03:36,647 [INFO] __main__ - ============================================================
+2026-03-17 20:03:36,647 [INFO] __main__ -   Step 1/4 - Data Ingestion
+2026-03-17 20:03:36,647 [INFO] __main__ - ============================================================
+2026-03-17 20:03:36,647 [INFO] __main__ - Skipping fetch - using existing raw data
+2026-03-17 20:03:36,647 [INFO] __main__ - ============================================================
+2026-03-17 20:03:36,647 [INFO] __main__ -   Step 2/4 - Cleaning & Feature Engineering
+2026-03-17 20:03:36,647 [INFO] __main__ - ============================================================
+2026-03-17 20:03:36,926 [INFO] pipeline.cleaner - Bundesagentur cleaned: 508 jobs -> data/processed/bundesagentur_clean.csv
+2026-03-17 20:03:36,931 [INFO] pipeline.cleaner - Eurostat isoc_sks_itsps cleaned: 161 rows -> data/processed/eurostat_isoc_sks_itsps_clean.csv
+2026-03-17 20:03:36,946 [INFO] pipeline.cleaner - Eurostat htec_emp_nat2 cleaned: 136 rows -> data/processed/eurostat_htec_emp_nat2_clean.csv
+2026-03-17 20:03:37,028 [INFO] pipeline.cleaner - Eurostat jvs_q_nace2 cleaned: 419 rows -> data/processed/eurostat_jvs_q_nace2_clean.csv
+2026-03-17 20:03:37,041 [INFO] pipeline.features - Job features built: 71 rows -> data/processed/job_features.csv
+2026-03-17 20:03:37,050 [INFO] pipeline.features - Country comparison built: 22 countries -> data/processed/country_comparison.csv
+2026-03-17 20:03:37,057 [INFO] pipeline.features - Time series built: 716 rows -> data/processed/timeseries.csv
+2026-03-17 20:03:37,058 [INFO] __main__ - ============================================================
+2026-03-17 20:03:37,058 [INFO] __main__ -   Step 3/4 - Forecasting
+2026-03-17 20:03:37,058 [INFO] __main__ - ============================================================
+2026-03-17 20:03:37,828 [INFO] model.forecaster - Forecast DE/htec_emp_nat2: R2=-3.655 MAE=1475.4 forecast_end=2029
+2026-03-17 20:03:37,832 [INFO] model.forecaster - Forecast DE/isoc_sks_itsps: R2=-4.384 MAE=190.0 forecast_end=2029
+2026-03-17 20:03:37,836 [INFO] model.forecaster - Forecast DE/jvs_q_nace2: R2=-2.751 MAE=456143.6 forecast_end=2030
+2026-03-17 20:03:37,839 [INFO] model.forecaster - Forecast EE/htec_emp_nat2: R2=-0.171 MAE=19.3 forecast_end=2029
+2026-03-17 20:03:37,843 [INFO] model.forecaster - Forecast EE/isoc_sks_itsps: R2=-4.135 MAE=4.4 forecast_end=2029
+2026-03-17 20:03:37,847 [INFO] model.forecaster - Forecast EE/jvs_q_nace2: R2=-10.838 MAE=4217.8 forecast_end=2030
+2026-03-17 20:03:37,851 [INFO] model.forecaster - Forecast EU27_2020/htec_emp_nat2: R2=-5.285 MAE=8487.6 forecast_end=2029
+2026-03-17 20:03:37,855 [INFO] model.forecaster - Forecast EU27_2020/isoc_sks_itsps: R2=-0.111 MAE=497.3 forecast_end=2029
+2026-03-17 20:03:37,858 [INFO] model.forecaster - Forecast IE/htec_emp_nat2: R2=-0.453 MAE=133.9 forecast_end=2029
+2026-03-17 20:03:37,862 [INFO] model.forecaster - Forecast IE/isoc_sks_itsps: R2=-2.729 MAE=18.3 forecast_end=2029
+2026-03-17 20:03:37,866 [INFO] model.forecaster - Forecast NL/htec_emp_nat2: R2=0.739 MAE=75.8 forecast_end=2029
+2026-03-17 20:03:37,870 [INFO] model.forecaster - Forecast NL/isoc_sks_itsps: R2=-0.151 MAE=42.3 forecast_end=2029
+2026-03-17 20:03:37,874 [INFO] model.forecaster - Forecast NL/jvs_q_nace2: R2=-2.100 MAE=97404.8 forecast_end=2030
+2026-03-17 20:03:37,877 [INFO] model.forecaster - Forecast NO/htec_emp_nat2: R2=-4.006 MAE=96.3 forecast_end=2029
+2026-03-17 20:03:37,881 [INFO] model.forecaster - Forecast NO/isoc_sks_itsps: R2=-7.494 MAE=8.7 forecast_end=2029
+2026-03-17 20:03:37,885 [INFO] model.forecaster - Forecast NO/jvs_q_nace2: R2=-2.225 MAE=26432.0 forecast_end=2030
+2026-03-17 20:03:37,889 [INFO] model.forecaster - Forecast PL/htec_emp_nat2: R2=-324.121 MAE=797.5 forecast_end=2029
+2026-03-17 20:03:37,893 [INFO] model.forecaster - Forecast PL/isoc_sks_itsps: R2=-2.507 MAE=87.8 forecast_end=2029
+2026-03-17 20:03:37,897 [INFO] model.forecaster - Forecast PL/jvs_q_nace2: R2=-32.191 MAE=62969.1 forecast_end=2030
+2026-03-17 20:03:37,900 [INFO] model.forecaster - Forecast PT/htec_emp_nat2: R2=-17.556 MAE=512.3 forecast_end=2029
+2026-03-17 20:03:37,904 [INFO] model.forecaster - Forecast PT/isoc_sks_itsps: R2=-0.031 MAE=16.5 forecast_end=2029
+2026-03-17 20:03:37,908 [INFO] model.forecaster - Forecast PT/jvs_q_nace2: R2=-3.354 MAE=5825.6 forecast_end=2030
+2026-03-17 20:03:37,913 [INFO] model.forecaster - All forecasts saved: data/models/forecasts.csv
+2026-03-17 20:03:37,914 [INFO] model.forecaster - Model metrics saved: data/models/model_metrics.csv
+2026-03-17 20:03:37,915 [INFO] model.forecaster - Forecasting complete: 22/22 successful
+2026-03-17 20:03:37,915 [INFO] __main__ - Forecasts: 22/22 successful
+2026-03-17 20:03:37,916 [INFO] __main__ - ============================================================
+2026-03-17 20:03:37,917 [INFO] __main__ -   Step 4/4 - Dashboard & Report
+2026-03-17 20:03:37,917 [INFO] __main__ - ============================================================
+2026-03-17 20:03:38,617 [INFO] dashboard.visualizer - Plot saved: docs/plots/01_job_distribution.png
+2026-03-17 20:03:38,880 [INFO] dashboard.visualizer - Plot saved: docs/plots/02_country_comparison.png
+2026-03-17 20:03:39,148 [INFO] dashboard.visualizer - Plot saved: docs/plots/03_timeseries.png
+2026-03-17 20:03:39,433 [INFO] dashboard.visualizer - Plot saved: docs/plots/04_forecast.png
+2026-03-17 20:03:39,433 [INFO] dashboard.visualizer - 4 plots generated
+2026-03-17 20:03:39,434 [INFO] __main__ - 4 plots generated
+2026-03-17 20:03:39,442 [INFO] dashboard.report - HTML report saved: docs/reports/report_20260317_200339.html
+2026-03-17 20:03:39,443 [INFO] __main__ - Report: docs/reports/report_20260317_200339.html
+2026-03-17 20:03:39,443 [INFO] __main__ - ============================================================
+2026-03-17 20:03:39,443 [INFO] __main__ -   Pipeline complete
+2026-03-17 20:03:39,443 [INFO] __main__ - ============================================================
+2026-03-17 20:03:39,443 [INFO] __main__ - Plots   : docs/plots
+2026-03-17 20:03:39,443 [INFO] __main__ - Reports : docs/reports
+2026-03-17 20:03:39,443 [INFO] __main__ - Log     : pipeline.log

@@ -1,0 +1,137 @@
+country_code,country,year,value,dataset
+EU27_2020,European Union - 27 countries (from 2020),2008,192779.4,htec_emp_nat2
+EU27_2020,European Union - 27 countries (from 2020),2009,189294.7,htec_emp_nat2
+EU27_2020,European Union - 27 countries (from 2020),2010,186516.6,htec_emp_nat2
+EU27_2020,European Union - 27 countries (from 2020),2011,186525.5,htec_emp_nat2
+EU27_2020,European Union - 27 countries (from 2020),2012,185787.9,htec_emp_nat2
+EU27_2020,European Union - 27 countries (from 2020),2013,185045.2,htec_emp_nat2
+EU27_2020,European Union - 27 countries (from 2020),2014,187209.2,htec_emp_nat2
+EU27_2020,European Union - 27 countries (from 2020),2015,189226.5,htec_emp_nat2
+EU27_2020,European Union - 27 countries (from 2020),2016,192089.6,htec_emp_nat2
+EU27_2020,European Union - 27 countries (from 2020),2017,195050.4,htec_emp_nat2
+EU27_2020,European Union - 27 countries (from 2020),2018,197122.4,htec_emp_nat2
+EU27_2020,European Union - 27 countries (from 2020),2019,199354.0,htec_emp_nat2
+EU27_2020,European Union - 27 countries (from 2020),2020,196320.6,htec_emp_nat2
+EU27_2020,European Union - 27 countries (from 2020),2021,197198.9,htec_emp_nat2
+EU27_2020,European Union - 27 countries (from 2020),2022,201977.2,htec_emp_nat2
+EU27_2020,European Union - 27 countries (from 2020),2023,204425.3,htec_emp_nat2
+EU27_2020,European Union - 27 countries (from 2020),2024,206502.6,htec_emp_nat2
+DE,Germany,2008,38471.5,htec_emp_nat2
+DE,Germany,2009,38392.6,htec_emp_nat2
+DE,Germany,2010,37911.9,htec_emp_nat2
+DE,Germany,2011,38689.5,htec_emp_nat2
+DE,Germany,2012,39018.5,htec_emp_nat2
+DE,Germany,2013,39407.2,htec_emp_nat2
+DE,Germany,2014,39734.6,htec_emp_nat2
+DE,Germany,2015,40058.0,htec_emp_nat2
+DE,Germany,2016,41107.1,htec_emp_nat2
+DE,Germany,2017,41489.8,htec_emp_nat2
+DE,Germany,2018,41735.2,htec_emp_nat2
+DE,Germany,2019,42221.2,htec_emp_nat2
+DE,Germany,2020,41300.9,htec_emp_nat2
+DE,Germany,2021,40682.3,htec_emp_nat2
+DE,Germany,2022,41735.2,htec_emp_nat2
+DE,Germany,2023,42270.4,htec_emp_nat2
+DE,Germany,2024,42480.1,htec_emp_nat2
+EE,Estonia,2008,656.0,htec_emp_nat2
+EE,Estonia,2009,593.9,htec_emp_nat2
+EE,Estonia,2010,568.0,htec_emp_nat2
+EE,Estonia,2011,603.2,htec_emp_nat2
+EE,Estonia,2012,614.9,htec_emp_nat2
+EE,Estonia,2013,621.3,htec_emp_nat2
+EE,Estonia,2014,624.8,htec_emp_nat2
+EE,Estonia,2015,632.8,htec_emp_nat2
+EE,Estonia,2016,638.7,htec_emp_nat2
+EE,Estonia,2017,650.3,htec_emp_nat2
+EE,Estonia,2018,656.5,htec_emp_nat2
+EE,Estonia,2019,662.2,htec_emp_nat2
+EE,Estonia,2020,646.8,htec_emp_nat2
+EE,Estonia,2021,650.5,htec_emp_nat2
+EE,Estonia,2022,677.3,htec_emp_nat2
+EE,Estonia,2023,694.6,htec_emp_nat2
+EE,Estonia,2024,698.6,htec_emp_nat2
+IE,Ireland,2008,2191.1,htec_emp_nat2
+IE,Ireland,2009,2007.9,htec_emp_nat2
+IE,Ireland,2010,1917.9,htec_emp_nat2
+IE,Ireland,2011,1880.8,htec_emp_nat2
+IE,Ireland,2012,1873.1,htec_emp_nat2
+IE,Ireland,2013,1930.0,htec_emp_nat2
+IE,Ireland,2014,1980.1,htec_emp_nat2
+IE,Ireland,2015,2047.0,htec_emp_nat2
+IE,Ireland,2016,2122.2,htec_emp_nat2
+IE,Ireland,2017,2184.1,htec_emp_nat2
+IE,Ireland,2018,2245.8,htec_emp_nat2
+IE,Ireland,2019,2310.8,htec_emp_nat2
+IE,Ireland,2020,2279.6,htec_emp_nat2
+IE,Ireland,2021,2413.0,htec_emp_nat2
+IE,Ireland,2022,2579.3,htec_emp_nat2
+IE,Ireland,2023,2667.8,htec_emp_nat2
+IE,Ireland,2024,2737.2,htec_emp_nat2
+NL,Netherlands,2008,8358.3,htec_emp_nat2
+NL,Netherlands,2009,8361.0,htec_emp_nat2
+NL,Netherlands,2010,8277.8,htec_emp_nat2
+NL,Netherlands,2011,8279.7,htec_emp_nat2
+NL,Netherlands,2012,8330.0,htec_emp_nat2
+NL,Netherlands,2013,8266.4,htec_emp_nat2
+NL,Netherlands,2014,8214.1,htec_emp_nat2
+NL,Netherlands,2015,8293.6,htec_emp_nat2
+NL,Netherlands,2016,8403.1,htec_emp_nat2
+NL,Netherlands,2017,8579.4,htec_emp_nat2
+NL,Netherlands,2018,8774.5,htec_emp_nat2
+NL,Netherlands,2019,8952.6,htec_emp_nat2
+NL,Netherlands,2020,8951.3,htec_emp_nat2
+NL,Netherlands,2021,9255.3,htec_emp_nat2
+NL,Netherlands,2022,9548.0,htec_emp_nat2
+NL,Netherlands,2023,9737.0,htec_emp_nat2
+NL,Netherlands,2024,9797.6,htec_emp_nat2
+PL,Poland,2008,15757.6,htec_emp_nat2
+PL,Poland,2009,15824.4,htec_emp_nat2
+PL,Poland,2010,15432.4,htec_emp_nat2
+PL,Poland,2011,15518.8,htec_emp_nat2
+PL,Poland,2012,15549.8,htec_emp_nat2
+PL,Poland,2013,15531.8,htec_emp_nat2
+PL,Poland,2014,15826.1,htec_emp_nat2
+PL,Poland,2015,16052.6,htec_emp_nat2
+PL,Poland,2016,16163.3,htec_emp_nat2
+PL,Poland,2017,16390.7,htec_emp_nat2
+PL,Poland,2018,16456.5,htec_emp_nat2
+PL,Poland,2019,16892.0,htec_emp_nat2
+PL,Poland,2020,16922.8,htec_emp_nat2
+PL,Poland,2021,17129.8,htec_emp_nat2
+PL,Poland,2022,17219.3,htec_emp_nat2
+PL,Poland,2023,17268.5,htec_emp_nat2
+PL,Poland,2024,17190.5,htec_emp_nat2
+PT,Portugal,2008,5017.5,htec_emp_nat2
+PT,Portugal,2009,4874.0,htec_emp_nat2
+PT,Portugal,2010,4798.1,htec_emp_nat2
+PT,Portugal,2011,4644.7,htec_emp_nat2
+PT,Portugal,2012,4451.0,htec_emp_nat2
+PT,Portugal,2013,4341.6,htec_emp_nat2
+PT,Portugal,2014,4427.9,htec_emp_nat2
+PT,Portugal,2015,4487.0,htec_emp_nat2
+PT,Portugal,2016,4554.1,htec_emp_nat2
+PT,Portugal,2017,4706.8,htec_emp_nat2
+PT,Portugal,2018,4817.0,htec_emp_nat2
+PT,Portugal,2019,4869.2,htec_emp_nat2
+PT,Portugal,2020,4755.1,htec_emp_nat2
+PT,Portugal,2021,4757.1,htec_emp_nat2
+PT,Portugal,2022,4908.8,htec_emp_nat2
+PT,Portugal,2023,5016.7,htec_emp_nat2
+PT,Portugal,2024,5083.4,htec_emp_nat2
+NO,Norway,2008,2513.7,htec_emp_nat2
+NO,Norway,2009,2499.5,htec_emp_nat2
+NO,Norway,2010,2500.8,htec_emp_nat2
+NO,Norway,2011,2535.5,htec_emp_nat2
+NO,Norway,2012,2585.4,htec_emp_nat2
+NO,Norway,2013,2601.6,htec_emp_nat2
+NO,Norway,2014,2626.6,htec_emp_nat2
+NO,Norway,2015,2641.0,htec_emp_nat2
+NO,Norway,2016,2638.2,htec_emp_nat2
+NO,Norway,2017,2643.9,htec_emp_nat2
+NO,Norway,2018,2685.8,htec_emp_nat2
+NO,Norway,2019,2715.5,htec_emp_nat2
+NO,Norway,2020,2702.0,htec_emp_nat2
+NO,Norway,2021,2772.2,htec_emp_nat2
+NO,Norway,2022,2846.2,htec_emp_nat2
+NO,Norway,2023,2876.1,htec_emp_nat2
+NO,Norway,2024,2888.7,htec_emp_nat2
