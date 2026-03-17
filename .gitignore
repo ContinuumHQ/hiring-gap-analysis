@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+data/
+docs/reports/
+docs/plots/
+pipeline.log
+.venv/

@@ -120,7 +120,7 @@ def generate_html_report(
 </html>"""
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    path = reports_dir / f"report_{timestamp}.html"
+    path = reports_dir / f"report_latest.html"
     with open(path, "w", encoding="utf-8") as f:
         f.write(html)
 
