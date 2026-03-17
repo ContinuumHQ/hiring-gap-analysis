@@ -59,46 +59,63 @@ class DashboardVisualizer:
         plt.rcParams.update({"font.family": "monospace", "font.size": 10})
 
     def plot_job_distribution(self, df: pd.DataFrame) -> Optional[Path]:
+        """
+        Heatmap: IT job postings by occupation x all German states.
+        """
         if df.empty or "occupation_label" not in df.columns:
             logger.warning("No job data - skipping job distribution plot")
             return None
 
-        pivot = df.groupby(["occupation_label", "region"]).size().unstack(fill_value=0)
+        if "job_count" in df.columns:
+            pivot = df.pivot_table(
+                index="occupation_label", columns="region",
+                values="job_count", aggfunc="sum"
+            ).fillna(0)
+        else:
+            pivot = df.groupby(["occupation_label", "region"]).size().unstack(fill_value=0)
 
         if pivot.empty:
             return None
 
         n_regions = len(pivot.columns)
-        colors = [GH_BLUE, GH_GREEN, GH_ORANGE, GH_PURPLE, GH_CYAN][:n_regions]
+        n_occ = len(pivot.index)
+        fig_w = max(16, n_regions * 1.1)
+        fig_h = max(5, n_occ * 1.2)
 
-        fig, ax = plt.subplots(figsize=(14, 6))
-        _gh(fig, ax)
+        fig, ax = plt.subplots(figsize=(fig_w, fig_h))
+        fig.patch.set_facecolor(GH_BG)
+        ax.set_facecolor(GH_BG_CARD)
 
-        x = np.arange(len(pivot.index))
-        width = 0.8 / n_regions
+        im = ax.imshow(pivot.values, aspect="auto", cmap="Blues", interpolation="nearest")
 
-        for i, (region, color) in enumerate(zip(pivot.columns, colors)):
-            offset = (i - n_regions / 2 + 0.5) * width
-            bars = ax.bar(x + offset, pivot[region], width=width * 0.9,
-                         label=region, color=color, alpha=0.85)
-            for bar in bars:
-                h = bar.get_height()
-                if h > 0:
-                    ax.text(bar.get_x() + bar.get_width() / 2, h + 0.3,
-                           str(int(h)), ha="center", va="bottom",
-                           fontsize=7, color=GH_TEXT_MUTED)
+        ax.set_xticks(range(n_regions))
+        ax.set_xticklabels(pivot.columns, rotation=40, ha="right", color=GH_TEXT, fontsize=9)
+        ax.set_yticks(range(n_occ))
+        ax.set_yticklabels(pivot.index, color=GH_TEXT, fontsize=10)
 
-        ax.set_xticks(x)
-        ax.set_xticklabels(pivot.index, rotation=20, ha="right", color=GH_TEXT)
-        ax.set_title("IT Job Postings by Occupation and Region - Germany", pad=12)
-        ax.set_ylabel("Number of Postings")
-        legend = ax.legend(title="Region", fontsize=8,
-                          facecolor=GH_BG_CARD, edgecolor=GH_BORDER, labelcolor=GH_TEXT)
-        legend.get_title().set_color(GH_TEXT_MUTED)
+        max_val = pivot.values.max()
+        for i in range(n_occ):
+            for j in range(n_regions):
+                val = int(pivot.values[i, j])
+                if val > 0:
+                    text_color = "black" if val > max_val * 0.6 else GH_TEXT
+                    ax.text(j, i, str(val), ha="center", va="center",
+                           fontsize=9, color=text_color, fontweight="bold")
+
+        cbar = fig.colorbar(im, ax=ax, pad=0.02, shrink=0.8)
+        cbar.ax.yaxis.set_tick_params(color=GH_TEXT_MUTED, labelcolor=GH_TEXT_MUTED)
+        cbar.set_label("Job Postings", color=GH_TEXT_MUTED, fontsize=9)
+
+        ax.set_title(
+            f"IT Job Postings Heatmap - {n_regions} German States",
+            pad=14, color=GH_TEXT, fontsize=12, fontweight="bold"
+        )
+        for spine in ax.spines.values():
+            spine.set_edgecolor(GH_BORDER)
 
         plt.tight_layout()
         path = self.plots_dir / "01_job_distribution.png"
-        plt.savefig(path, dpi=150, facecolor=GH_BG)
+        plt.savefig(path, dpi=150, facecolor=GH_BG, bbox_inches="tight")
         plt.close()
         logger.info("Plot saved: %s", path)
         return path
@@ -111,11 +128,12 @@ class DashboardVisualizer:
 
         col = index_cols[0]
         plot_df = df[["country_code", col]].dropna().copy()
+        plot_df = plot_df[plot_df["country_code"] != "EU27_2020"]
         plot_df["country"] = plot_df["country_code"].map(COUNTRY_LABELS).fillna(plot_df["country_code"])
         plot_df = plot_df.sort_values(col, ascending=True)
         colors = [COUNTRY_COLORS.get(c, GH_BLUE) for c in plot_df["country_code"]]
 
-        fig, ax = plt.subplots(figsize=(11, 5))
+        fig, ax = plt.subplots(figsize=(13, 7))
         _gh(fig, ax)
 
         bars = ax.barh(plot_df["country"], plot_df[col], color=colors, alpha=0.85, height=0.6)
@@ -145,14 +163,16 @@ class DashboardVisualizer:
         dataset = df["dataset"].unique()[0]
         plot_df = df[df["dataset"] == dataset].copy()
 
-        fig, ax = plt.subplots(figsize=(13, 5))
+        fig, ax = plt.subplots(figsize=(15, 7))
         _gh(fig, ax)
 
         for country in sorted(plot_df["country_code"].unique()):
+            if country == "EU27_2020":
+                continue
             sub = plot_df[plot_df["country_code"] == country].sort_values("year")
             lw = 2.5 if country == "DE" else 1.4
             color = COUNTRY_COLORS.get(country, GH_BLUE)
-            ax.plot(sub["year"], sub["value"], marker="o", markersize=3,
+            ax.plot(sub["year"], sub["value"], marker="o", markersize=4,
                    label=COUNTRY_LABELS.get(country, country), linewidth=lw, color=color)
 
         ax.set_title(f"IT Employment Trend by Country - {dataset}", pad=12)
@@ -179,10 +199,12 @@ class DashboardVisualizer:
         dataset = forecasts_df["dataset"].unique()[0]
         plot_df = forecasts_df[forecasts_df["dataset"] == dataset].copy()
 
-        fig, ax = plt.subplots(figsize=(13, 5))
+        fig, ax = plt.subplots(figsize=(15, 7))
         _gh(fig, ax)
 
         for country in sorted(plot_df["country_code"].unique()):
+            if country == "EU27_2020":
+                continue
             sub = plot_df[plot_df["country_code"] == country].sort_values("year")
             hist = sub[sub["type"] == "historical"]
             fcast = sub[sub["type"] == "forecast"]

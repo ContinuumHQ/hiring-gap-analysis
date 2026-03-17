@@ -55,14 +55,19 @@ class DataCleaner:
                     logger.warning("Unexpected format in %s", path.name)
                     continue
 
+                REGION_NORMALIZE = {
+                        "Baden-Wuerttemberg": "Baden-Württemberg",
+                    }
                 for job in jobs:
+                    raw_region = job.get("arbeitsort", {}).get("region", region)
+                    clean_region = REGION_NORMALIZE.get(raw_region, raw_region)
                     rows.append({
                         "job_id": f"{job.get('refnr', '')}_{occupation_code}",
                         "refnr": job.get("refnr", ""),
                         "title": job.get("titel", ""),
                         "employer": job.get("arbeitgeber", ""),
                         "location": job.get("arbeitsort", {}).get("ort", ""),
-                        "region": job.get("arbeitsort", {}).get("region", region),
+                        "region": clean_region,
                         "occupation_code": occupation_code,
                         "occupation_label": OCCUPATION_LABELS.get(occupation_code, occupation_code),
                         "published_date": job.get("aktuelleVeroeffentlichungsdatum", ""),
