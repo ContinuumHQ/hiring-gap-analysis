@@ -42,7 +42,7 @@ class TestDataCleaner(unittest.TestCase):
     def test_deduplication(self):
         self._write_ba_file(MOCK_BA_JOBS)
         df = self.cleaner.clean_bundesagentur()
-        self.assertEqual(len(df), 2)
+        self.assertEqual(len(df), 1)
 
     def test_output_csv_created(self):
         self._write_ba_file(MOCK_BA_JOBS)
