@@ -107,3 +107,31 @@ Python 3.12 - pandas - scikit-learn - matplotlib - seaborn - requests - PyYAML
 ## Author
 
 Raffaele Conti
+
+---
+
+## Pipeline Architecture
+```mermaid
+flowchart LR
+    subgraph Sources["Data Sources"]
+        BA["Bundesagentur\nfuer Arbeit API"]
+        ES["Eurostat\nREST API"]
+    end
+    subgraph Ingestion["Ingestion Layer"]
+        BAC["BundesagenturClient\nRetry + Error Handling"]
+        ESC["EurostatClient\nQuarterly Parser"]
+    end
+    subgraph Pipeline["Processing Pipeline"]
+        CL["DataCleaner\nNormalization"]
+        FE["FeatureEngineer\nAggregation + Index"]
+    end
+    subgraph Model["ML Layer"]
+        FC["ITLaborForecaster\nPolynomial Regression"]
+    end
+    subgraph Output["Output Layer"]
+        VZ["DashboardVisualizer\n4 Plots"]
+        RP["HTML Report"]
+    end
+    BA --> BAC --> CL --> FE --> FC --> VZ --> RP
+    ES --> ESC --> CL
+```
