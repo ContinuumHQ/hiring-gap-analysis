@@ -117,7 +117,7 @@ def generate_pdf_report(
         ]
 
     kpi_data = [[
-        kpi_cell(f"{total_jobs:,}", "Open IT Positions\n(Germany)"),
+        kpi_cell(f"{total_jobs:,} sampled\n1M+ total", "Open IT Positions\n(Germany, live API)"),
         kpi_cell(str(n_states),      "German States\nAnalyzed"),
         kpi_cell(str(n_occupations), "IT Occupation\nCategories"),
         kpi_cell(str(n_countries),   "EU Countries\nCompared"),
@@ -184,7 +184,7 @@ def generate_pdf_report(
         index_cols = [c for c in country_comparison.columns if c.endswith("_index_de100")]
         display_cols = ["country", "year"] + index_cols[:2]
         available = [c for c in display_cols if c in country_comparison.columns]
-        tdf = country_comparison[available].dropna().head(10)
+        tdf = country_comparison[available].dropna().drop_duplicates(subset=["country"]).head(10)
         headers = [c.replace("_index_de100"," (DE=100)").replace("_"," ").title()
                    for c in available]
         data = [headers]
