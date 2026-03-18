@@ -173,3 +173,20 @@ def main() -> None:
 if __name__ == "__main__":
     main()
     
+# PDF Report
+try:
+    from dashboard.pdf_reporter import generate_pdf_report
+    import pandas as pd
+    metrics_path = Path("data/models/model_metrics.csv")
+    model_metrics = pd.read_csv(metrics_path) if metrics_path.exists() else pd.DataFrame()
+    pdf_path = generate_pdf_report(
+        job_features=pd.read_csv("data/processed/job_features.csv"),
+        country_comparison=pd.read_csv("data/processed/country_comparison.csv"),
+        model_metrics=model_metrics,
+        plots_dir=Path("docs/plots"),
+        reports_dir=Path("docs/reports"),
+    )
+    if pdf_path:
+        print(f"PDF Report: {pdf_path}")
+except Exception as e:
+    print(f"PDF generation skipped: {e}")

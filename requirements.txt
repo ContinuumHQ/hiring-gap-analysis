@@ -6,3 +6,4 @@ seaborn>=0.13
 scikit-learn>=1.8
 pyyaml>=6.0
 pytest>=8.0
+reportlab>=4.0
